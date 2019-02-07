@@ -1,0 +1,65 @@
+header {
+    background-color: #fff;
+    color: #11294B;
+    padding: 20px 20px;
+    font-size: 0;
+    height: 100px;
+}
+
+.social-link-row {
+    width: 33%;
+    height: 100%;
+    text-align: left;
+    font-size: initial;
+    vertical-align: top;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-link-row .social-link {
+    height: 40px;
+    width: 40px;
+    background-color: #11294B;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-link-row .social-link:hover {
+    background-color: #15396b;
+}
+
+.titlespace {
+    width: 33%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: top;
+}
+
+.titlespace h1 {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.menu-icon-space {
+    font-size: initial;
+    width: 33%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    vertical-align: top;
+    font-size: 1.2rem;
+}
+
+.menu-icon-space i {
+    margin-left: 10px;
+}
