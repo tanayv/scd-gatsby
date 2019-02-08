@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Header from "./header/header"
+import Footer from "./footer/footer";
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -9,11 +10,7 @@ const Layout = ({ children }) => (
       <Header siteTitle="Siebel Center for Design" />
       <div>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+      <Footer/>
       </div>
     </>
 )

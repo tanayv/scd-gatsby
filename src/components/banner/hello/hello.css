@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.banner .light-block {
+    width: 80%;
+    height: 150px;
+    background-color: #E74B26;
+    z-index: 0;
+    opacity: 0.2;
+    position: absolute;
+    left: 0; 
+    right: 0;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    margin: 0 15px;
+    font-size: 10rem;
+    z-index: 2;
+}

@@ -6,32 +6,13 @@ header {
     height: 100px;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .social-link-row {
     width: 33%;
-    height: 100%;
-    text-align: left;
-    font-size: initial;
-    vertical-align: top;
-    display: inline-flex;
-    align-items: center;
-}
-
-.social-link-row .social-link {
-    height: 40px;
-    width: 40px;
-    background-color: #11294B;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-    display: inline-block;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.social-link-row .social-link:hover {
-    background-color: #15396b;
 }
 
 .titlespace {
@@ -62,4 +43,5 @@ header {
 
 .menu-icon-space i {
     margin-left: 10px;
+    cursor: pointer;
 }

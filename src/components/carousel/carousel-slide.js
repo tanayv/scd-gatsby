@@ -27,7 +27,7 @@ const CarouselSlide = (props) => (
     `}
     render={data =>
     <>
-    <div class="overlay" style={
+    <div className="overlay" style={
       {
         backgroundImage: `url(${data[props.slideNumber].childImageSharp.fluid.src})`
       }

@@ -1,0 +1,38 @@
+.social-link-row {
+    height: 100%;
+    text-align: left;
+    font-size: initial;
+    vertical-align: top;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-link-row.blue .social-link {
+    background-color: #11294B;
+    color: #fff;
+}
+
+.social-link-row.black .social-link {
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+.social-link-row .social-link {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-link-row.blue .social-link:hover {
+    background-color: #15396b;
+}
+
+.social-link-row.black .social-link:hover {
+    background-color: #777777;
+}
