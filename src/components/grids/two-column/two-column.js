@@ -1,26 +1,34 @@
 import React from "react"
+import "./two-column.css"
+
 
 class TwoColumnGrid extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            colorSet: ["#69C8C4", "#A5228E", "#E74B26"]
-        };
     }
     
     
     render = () => (
-        <div className="banner">
-            <div className="light-block">
+        <div className="two-column-grid">
+            <div className="grid-column">
+            {this.props.paragraphs.map((para) => {
+                return (
+                    <p class="serif">
+                    { para }
+                    </p>
+                )
+            })}
             </div>
-            {this.state.colorSet.map((color, key) => (
-                <h1 style={
-                    {
-                        "color": color
-                    }
-                } key={key}>Hello!</h1>
-            ))}
+            <div className="grid-column">
+                <div className="menu">
+                    <div className="option">> For Students</div>
+                    <div className="option">> For Faculty & Staff</div>
+                    <div className="option">> Industry Opportunities</div>
+                    <div className="option">> Giving</div>
+                    <div className="option">> Join</div>
+                </div>
+            </div>
         </div>
     )
 
