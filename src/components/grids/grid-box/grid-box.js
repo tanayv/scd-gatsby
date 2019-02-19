@@ -2,11 +2,6 @@ import React from "react"
 import "./grid-box.css"
 
 class GridBox extends React.Component {
-
-    constructor(props) {
-        super(props);
-    }
-    
     
     render = () => (
         <div className="grid-box">

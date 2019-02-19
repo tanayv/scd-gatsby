@@ -3,25 +3,20 @@ import "./two-column.css"
 
 
 class TwoColumnGrid extends React.Component {
-
-    constructor(props) {
-        super(props);
-    }
-    
     
     render = () => (
         <div className="two-column-grid">
             <div className="grid-column">
-            {this.props.paragraphs.map((para) => {
+            {this.props.paragraphs.map((para, key) => {
                 return (
-                    <p class="serif">
+                    <p className="serif" key={key}>
                     { para }
                     </p>
                 )
             })}
             </div>
             <div className="grid-column">
-                <div className="menu">
+                <div className="grid-menu">
                     <div className="option">> For Students</div>
                     <div className="option">> For Faculty & Staff</div>
                     <div className="option">> Industry Opportunities</div>

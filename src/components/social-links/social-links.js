@@ -19,7 +19,7 @@ const SocialLinks = ({ theme }) => (
             <i className="fab fa-facebook-f"></i>
           </div>
         </a>
-        <a href="https://twitter.com/scdillinois" rel="noopener noreferrer" target="_blank">
+        <a href="https://www.instagram.com/scdillinois/" rel="noopener noreferrer" target="_blank">
           <div className="social-link">
             <i className="fab fa-instagram"></i>
           </div>

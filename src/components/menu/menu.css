@@ -1,0 +1,66 @@
+.menu-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 33;
+}
+
+.menu {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.menu .menu-content-container {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu .menu-close-button {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+
+.menu .menu-close-button .button {
+    font-size: 2.3rem;
+    color: #11294B;
+    cursor: pointer;
+    height: 2.3rem;
+    width: 2.3rem;
+    float: right;
+}
+
+.menu h1 {
+    color: #11294B;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.menu hr {
+    border-bottom: 2px solid #11294B;
+    background: none;
+    margin-bottom: 10px;
+}
+
+.menu .menu-option {
+    font-family: 'Georgia', serif;
+    font-size: 1.3rem;
+    padding: 10px;
+    color: #11294B;
+    
+}
+
+.menu a {
+    text-decoration: none !important;
+}

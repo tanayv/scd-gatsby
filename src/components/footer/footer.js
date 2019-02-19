@@ -3,7 +3,7 @@ import React from "react"
 import SocialLinks from "./../social-links/social-links";
 import "./footer.css";
 
-const Footer = ({}) => (
+const Footer = () => (
     <footer>
         <div className="row">
             <div className="cell wide">

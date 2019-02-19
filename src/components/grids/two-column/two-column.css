@@ -16,7 +16,7 @@ p.serif {
 }
 
 
-.menu .option {
+.grid-menu .option {
    color: #69C8C4;
    font-size: 1.6rem;
    font-weight: 600;
@@ -25,6 +25,6 @@ p.serif {
    cursor: pointer;
 }
 
-.menu .option:hover {
+.grid-menu .option:hover {
     color: #258d88;
 }
