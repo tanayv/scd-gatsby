@@ -4,6 +4,7 @@ import Carousel from "../components/carousel/carousel";
 import Hello from "../components/banner/hello/hello";
 import TwoColumnGrid from "../components/grids/two-column/two-column";
 import GridBox from "../components/grids/grid-box/grid-box";
+import { Helmet } from "react-helmet";
 
 const leftColumnDefinition = {
   paragraphs: [`We are the Siebel Center for Design—SCD for short. 
@@ -16,6 +17,11 @@ const rightColumnDefinition = {
 };
 
 const IndexPage = () => (
+  <>
+  <Helmet>
+    <meta charSet="utf-8" />
+    <title>SCD / Home</title>
+  </Helmet>
   <Layout>
     <Carousel title="Welcome to the Siebel Center for Design"/>
     <Hello/>
@@ -23,6 +29,7 @@ const IndexPage = () => (
     <h2 className="serif">What's going on with us</h2>
     <GridBox tabs={[`Stories`, `Events`]}/>
   </Layout>
+  </>
 )
 
 export default IndexPage

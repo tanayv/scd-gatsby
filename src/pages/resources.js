@@ -4,6 +4,7 @@ import ImageBanner from "./../components/banner/image-banner/image-banner";
 import TwoColumnGrid from "../components/grids/two-column/two-column";
 import GridBox from "../components/grids/grid-box/grid-box";
 import GridBoxDefaultSlide from "../components/grids/grid-box/default-slide";
+import { Helmet } from "react-helmet";
 
 const leftColumnDefinition = {
     paragraphs: [`Ut wisi enim ad minim veniam, quis nostrud exerci 
@@ -22,6 +23,11 @@ const gridBoxSlideDefinition = {
 
 
 const ResourcePage = () => (
+    <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>SCD / Resources</title>
+    </Helmet>
     <Layout>
         <ImageBanner page="resources" title="design resources we’re wild about!"/>
         <TwoColumnGrid title="We like sharing what we love." left={leftColumnDefinition} right={leftColumnDefinition}></TwoColumnGrid>
@@ -34,6 +40,7 @@ const ResourcePage = () => (
             />
         </GridBox>
     </Layout>
+    </>
 )
 
 export default ResourcePage
