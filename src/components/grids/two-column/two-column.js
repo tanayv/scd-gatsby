@@ -3,28 +3,43 @@ import "./two-column.css"
 
 
 class TwoColumnGrid extends React.Component {
-    
-    render = () => (
-        <div className="two-column-grid">
-            <div className="grid-column">
-            {this.props.paragraphs.map((para, key) => {
+
+    generateColumn = (composition) => {
+        let column;
+        if (composition.paragraphs) {
+            column = composition.paragraphs.map((para, key) => {
                 return (
                     <p className="serif" key={key}>
                     { para }
                     </p>
                 )
-            })}
+            })
+        }
+        else if (composition.options) {
+            column = 
+                <div className="grid-menu">
+                    {
+                        composition.options.map((option, key) => (
+                            <div className="option" key={key}>>{option}</div>
+                        ))
+                    }
+                </div>
+        }
+        return column;
+    }
+    
+    render = () => (
+        <>
+        <h2 className="serif">{this.props.title}</h2>
+        <div className="two-column-grid">
+            <div className="grid-column">
+            {this.generateColumn(this.props.left)}
             </div>
             <div className="grid-column">
-                <div className="grid-menu">
-                    <div className="option">> For Students</div>
-                    <div className="option">> For Faculty & Staff</div>
-                    <div className="option">> Industry Opportunities</div>
-                    <div className="option">> Giving</div>
-                    <div className="option">> Join</div>
-                </div>
+            {this.generateColumn(this.props.right)}
             </div>
         </div>
+        </>
     )
 
 }

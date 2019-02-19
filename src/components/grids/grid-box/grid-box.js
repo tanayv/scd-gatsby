@@ -6,9 +6,13 @@ class GridBox extends React.Component {
     render = () => (
         <div className="grid-box">
             <div className="navigation">
-                <div className="tab selected">Stories</div>
-                <div className="tab">Events</div>
+                {
+                    this.props.tabs.map((tab, key) => (
+                        <div className="tab" key={key}>{tab}</div>
+                    ))
+                }
             </div>
+            {this.props.children}
         </div>
     )
 

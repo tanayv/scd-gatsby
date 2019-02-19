@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import "./image-banner.css"
+import "./grid-box.css"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -13,11 +13,11 @@ import "./image-banner.css"
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const ImageBanner = (props) => (
+const ImageBlob = (props) => (
   <StaticQuery
     query={graphql`
       query {
-        resources: file(relativePath: { eq: "resources.jpg" }) {
+        ideo: file(relativePath: { eq: "ideo.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid
@@ -28,15 +28,14 @@ const ImageBanner = (props) => (
     `}
     render={data =>
     <>
-    <div className="image-banner" style={
+    <div className="image-blob" style={
       {
-        backgroundImage: `url(${data[props.page].childImageSharp.fluid.src})`
+        backgroundImage: `url(${data[props.name].childImageSharp.fluid.src})`
       }
     }>
-      <div className="text-line">{props.title}</div>
     </div>
     </>
 }
   />
 )
-export default ImageBanner
+export default ImageBlob

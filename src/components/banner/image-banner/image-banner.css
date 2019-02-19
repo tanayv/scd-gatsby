@@ -5,6 +5,7 @@
     background-position: center;
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .image-banner .text-line {

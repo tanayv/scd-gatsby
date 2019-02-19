@@ -17,6 +17,42 @@
     cursor: pointer;
 }
 
-.grid-box .navigation .tab.selected {
+.grid-box .navigation .tab:first-of-type {
     font-weight: 700;
+}
+
+.image-blob {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-box-default-slide {
+    
+    padding: 20px 0;
+}
+
+.grid-box-default-slide .image-tile {
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+}
+
+.grid-box-default-slide .image-tile.resources {
+    height: 500px;
+    vertical-align: top;
+}
+
+.grid-box-default-slide .text-container {
+    width: calc(70% - 20px);
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.grid-box-default-slide .text-container a {
+    font-size: 1.3rem;
+    font-family: 'Georgia', serif
 }
