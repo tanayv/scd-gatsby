@@ -626,3 +626,7 @@ h2.serif {
   text-align: center;
   margin-top: 20px;
 }
+
+.content-wrapper {
+  padding-top: 100px;
+}

@@ -8,7 +8,7 @@ import "./layout.css"
 const Layout = ({ children }) => (
     <>
       <Header siteTitle="Siebel Center for Design" />
-      <div>
+      <div class="content-wrapper">
         <main>{children}</main>
       <Footer/>
       </div>
