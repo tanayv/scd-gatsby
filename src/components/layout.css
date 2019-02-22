@@ -624,9 +624,23 @@ h2.serif {
   font-weight: 400;
   font-size: 2rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
-.content-wrapper {
-  padding-top: 100px;
+.scd-ptop-100 {
+  padding-top: 100px !important;
+}
+
+.scd-cw-75 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.scd-cw-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.scd-fill-height {
+  height: 100%;
 }

@@ -1,3 +1,4 @@
+
 .overlay {
     background: #3a3a3a;
     background-repeat: no-repeat;
@@ -11,8 +12,9 @@
 }
 
 .overlay .tile-display {
-    width: 50%;
+    width: 60%;
     text-align: right;
+    float: right;
 }
 
 .overlay h1 {

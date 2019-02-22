@@ -1,13 +1,17 @@
 header {
     background-color: #fff;
     color: #11294B;
-    padding: 20px 20px;
     font-size: 0;
     height: 100px;
     width: 100%;
     position: fixed;
     z-index: 20;
     box-shadow: 0 0 3px 2px #44444480;
+    align-items: center;
+}
+
+header.flex {
+    display: flex;
 }
 
 header a {
@@ -15,12 +19,12 @@ header a {
     color: inherit;
 }
 
-.social-link-row {
-    width: 33%;
+header .social-link-row {
+    width: calc(100% / 3);
 }
 
 .titlespace {
-    width: 33%;
+    width: calc(100% / 3);
     height: 100%;
     display: inline-flex;
     align-items: center;
@@ -36,20 +40,32 @@ header a {
 
 .menu-icon-space {
     font-size: initial;
-    width: 33%;
+    width: calc(100% / 3);
     height: 100%;
     display: inline-flex;
     align-items: center;
     justify-content: flex-end;
     vertical-align: top;
     font-size: 1.2rem;
-    
+    text-transform: uppercase;
 }
 
-.menu-icon-space i {
-    margin-left: 10px;
+.menu-icon-space .long-menu-icon {
+    margin-left: 15px;
+    width: 40px;
+    height: 100%;
+    background-image: url('./../../../static/menu-icon.png');
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
 }
+
 
 .menu-icon-space .soft-button {
     cursor: pointer;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
 }

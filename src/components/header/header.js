@@ -31,15 +31,17 @@ class Header extends React.Component {
   render = () => (
     <main>
       {this.spawnMenu()}
-      <header>
-        <SocialLinks theme="blue"/>
-        <div className="titlespace">
-          <Link to="/">
-            <h1>SCD</h1>
-          </Link>
-        </div>
-        <div className="menu-icon-space">
-          <div className="soft-button" onClick={this.toggleMenu}>Menu <i className="fas fa-bars"></i></div>
+      <header className="flex">
+        <div className="scd-cw-90 scd-fill-height">
+          <SocialLinks theme="blue"/>
+          <div className="titlespace">
+            <Link to="/">
+              <h1>SCD</h1>
+            </Link>
+          </div>
+          <div className="menu-icon-space">
+            <div className="soft-button" onClick={this.toggleMenu}>Menu <div class="long-menu-icon"></div></div>
+          </div>
         </div>
       </header>
     </main>

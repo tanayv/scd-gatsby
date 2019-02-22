@@ -30,13 +30,15 @@ class TwoColumnGrid extends React.Component {
     
     render = () => (
         <>
-        <h2 className="serif">{this.props.title}</h2>
-        <div className="two-column-grid">
-            <div className="grid-column">
-            {this.generateColumn(this.props.left)}
-            </div>
-            <div className="grid-column">
-            {this.generateColumn(this.props.right)}
+        <div class="scd-cw-75">
+            <h2 className="serif">{this.props.title}</h2>
+            <div className="two-column-grid">
+                <div className="grid-column">
+                {this.generateColumn(this.props.left)}
+                </div>
+                <div className="grid-column">
+                {this.generateColumn(this.props.right)}
+                </div>
             </div>
         </div>
         </>

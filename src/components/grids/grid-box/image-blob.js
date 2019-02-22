@@ -24,6 +24,14 @@ const ImageBlob = (props) => (
             }
           }
         }
+
+        hq_coming_soon: file(relativePath: { eq: "hq_coming_soon.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data =>
