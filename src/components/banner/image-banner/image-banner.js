@@ -24,6 +24,20 @@ const ImageBanner = (props) => (
             }
           }
         }
+        connect: file(relativePath: { eq: "connect.png" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories: file(relativePath: { eq: "stories.png" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data =>

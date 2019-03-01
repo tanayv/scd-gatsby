@@ -6,7 +6,7 @@ const NotFoundPage = () => (
   <Layout>
     <div className="scd-cw-75">
       <h2 className="serif">NOT FOUND</h2>
-      <p className="serif">You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <p className="serif">Page not found</p>
     </div>
   </Layout>
 )

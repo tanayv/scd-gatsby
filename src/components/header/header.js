@@ -40,7 +40,7 @@ class Header extends React.Component {
             </Link>
           </div>
           <div className="menu-icon-space">
-            <div className="soft-button" onClick={this.toggleMenu}>Menu <div class="long-menu-icon"></div></div>
+            <div className="soft-button" onClick={this.toggleMenu}>Menu <div className="long-menu-icon"></div></div>
           </div>
         </div>
       </header>

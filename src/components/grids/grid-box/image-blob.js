@@ -32,6 +32,23 @@ const ImageBlob = (props) => (
             }
           }
         }
+
+        slash_student: file(relativePath: { eq: "slash_student.jpeg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        coffee_hours: file(relativePath: { eq: "coffee_hours.png" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
       }
     `}
     render={data =>

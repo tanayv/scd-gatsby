@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import ImageBanner from "./../components/banner/image-banner/image-banner";
 import TwoColumnGrid from "../components/grids/two-column/two-column";
 import GridBox from "../components/grids/grid-box/grid-box";
-import GridBoxDefaultSlide from "../components/grids/grid-box/default-slide";
 import { Helmet } from "react-helmet";
 
 const leftColumnDefinition = {
@@ -31,14 +30,6 @@ const ResourcePage = () => (
     <Layout>
         <ImageBanner page="resources" title="design resources we’re wild about!"/>
         <TwoColumnGrid title="We like sharing what we love." left={leftColumnDefinition} right={leftColumnDefinition}></TwoColumnGrid>
-        <GridBox tabs={[`IDEO`, `AIGA`, `HOW`]}>
-            <GridBoxDefaultSlide 
-                textTitle={gridBoxSlideDefinition.textTitle}
-                paragraphs={gridBoxSlideDefinition.paragraphs}
-                links={gridBoxSlideDefinition.links}
-                image={gridBoxSlideDefinition.image}
-            />
-        </GridBox>
     </Layout>
     </>
 )
