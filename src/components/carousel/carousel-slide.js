@@ -16,7 +16,21 @@ const CarouselSlide = (props) => (
   <StaticQuery
     query={graphql`
       query {
-        carousel3: file(relativePath: { eq: "carousel3.jpg" }) {
+        siebel_carousel: file(relativePath: { eq: "siebel_carousel.png" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        welcome_carousel: file(relativePath: { eq: "welcome_carousel.png" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        contact_carousel: file(relativePath: { eq: "contact_carousel.png" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid
@@ -29,7 +43,7 @@ const CarouselSlide = (props) => (
     <>
     <div className="overlay" style={
       {
-        backgroundImage: `url(${data[props.slideNumber].childImageSharp.fluid.src})`
+        backgroundImage: `url(${data[props.image].childImageSharp.fluid.src})`
       }
     }>
       {props.children}

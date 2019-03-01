@@ -21,7 +21,7 @@
     color: #fff;
     width: 100%;
     text-align: right;
-    font-size: 2.9rem;
+    font-size: 3.4rem;
 }
 
 .overlay .pagination {
@@ -39,5 +39,9 @@
 }
 
 .overlay .pagination .dot:hover {
+    background: #ececec;
+}
+
+.overlay .pagination .dot.active {
     background: #ececec;
 }

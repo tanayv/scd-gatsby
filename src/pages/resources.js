@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import ImageBanner from "./../components/banner/image-banner/image-banner";
 import TwoColumnGrid from "../components/grids/two-column/two-column";
-import GridBox from "../components/grids/grid-box/grid-box";
 import { Helmet } from "react-helmet";
 
 const leftColumnDefinition = {

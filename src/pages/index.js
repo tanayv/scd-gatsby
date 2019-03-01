@@ -23,7 +23,7 @@ const IndexPage = () => (
     <title>SCD / Home</title>
   </Helmet>
   <Layout>
-    <Carousel title="Welcome to the Siebel Center for Design"/>
+    <Carousel data={carouselData}/>
     <Hello/>
     <TwoColumnGrid title="We're glad you're here" left={leftColumnDefinition} right={rightColumnDefinition}></TwoColumnGrid>
     <h2 className="serif">What's going on with us</h2>
@@ -51,6 +51,24 @@ const gridBoxSlides = [{
   "links": [],
   "image": "hq_coming_soon"
 }, 
+]
+
+const carouselData = [
+  {
+    "image": "siebel_carousel",
+    "title": "Meet the Guiding force behind the Siebel Center for Design",
+    "link": ""
+  },
+  {
+    "image": "welcome_carousel",
+    "title": "Welcome to the Siebel Center for Design",
+    "link": ""
+  },
+  {
+    "image": "contact_carousel",
+    "title": "We can’t wait to hear from you!",
+    "link": ""
+  },
 ]
 
 export default IndexPage
