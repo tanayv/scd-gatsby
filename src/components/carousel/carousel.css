@@ -9,6 +9,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding: 20px 40px;
+    transition: all 0.5s ease-in-out;
 }
 
 .overlay .tile-display {
@@ -24,9 +25,6 @@
     font-size: 3.4rem;
 }
 
-.overlay .pagination {
-
-}
 
 .overlay .pagination .dot {
     height: 15px;
