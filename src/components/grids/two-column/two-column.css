@@ -10,7 +10,7 @@
 
 }
 
-p.serif {
+.grid-column p.serif {
     font-family: "Georgia", serif;
     color: #11294B;
     font-weight: 400;
@@ -18,18 +18,4 @@ p.serif {
     line-height: 2rem;
     text-align: left;
     margin-bottom: 20px;
-}
-
-
-.grid-menu .option {
-   color: #69C8C4;
-   font-size: 1.6rem;
-   font-weight: 600;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   cursor: pointer;
-}
-
-.grid-menu .option:hover {
-    color: #258d88;
 }

@@ -16,7 +16,7 @@ class Carousel extends React.Component {
             else {
                 this.setState({activeSlide: 0 });
             }
-        }, this.state.timer * 1000)
+        }, this.state.timer * 1000);
     }
 
     render = () => {

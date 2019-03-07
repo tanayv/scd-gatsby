@@ -627,6 +627,14 @@ h2.serif {
   margin-top: 25px;
 }
 
+h3.serif {
+  font-family: "Georgia", serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-align: left;
+  margin-bottom: 60px;
+}
 .scd-ptop-100 {
   padding-top: 100px !important;
 }
@@ -643,4 +651,13 @@ h2.serif {
 
 .scd-fill-height {
   height: 100%;
+}
+
+p.serif {
+  font-family: "Georgia", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+  margin-bottom: 20px;
 }

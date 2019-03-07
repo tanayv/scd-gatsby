@@ -1,0 +1,12 @@
+.link-drawer .option {
+    color: #69C8C4;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ 
+ .link-drawer .option:hover {
+     color: #258d88;
+ }

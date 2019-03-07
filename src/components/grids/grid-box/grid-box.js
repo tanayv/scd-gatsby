@@ -1,6 +1,6 @@
 import React from "react"
 import "./grid-box.css"
-import GridBoxDefaultSlide from "./default-slide";
+import GridBoxSlide from "./grid-box-slide";
 import PropTypes from "prop-types"
 
 class GridBox extends React.Component {
@@ -29,7 +29,7 @@ class GridBox extends React.Component {
 
         let activeSlide = this.props.data ?
             (
-                <GridBoxDefaultSlide 
+                <GridBoxSlide 
                     tabTitle={this.props.data[this.state.activeTab].tabTitle}
                     textTitle={this.props.data[this.state.activeTab].textTitle}
                     paragraphs={this.props.data[this.state.activeTab].paragraphs}
