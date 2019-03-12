@@ -38,6 +38,13 @@ const ImageBanner = (props) => (
             }
           }
         }
+        courses: file(relativePath: { eq: "courses.png" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data =>
