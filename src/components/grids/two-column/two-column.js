@@ -8,6 +8,7 @@ class TwoColumnGrid extends React.Component {
         <>
         <div className="scd-cw-75">
             <h2 className="serif">{this.props.title}</h2>
+            <hr/>
             <div className="two-column-grid">
                 <div className="grid-column">
                 {this.props.left}

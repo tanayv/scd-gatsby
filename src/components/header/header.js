@@ -43,6 +43,7 @@ class Header extends React.Component {
             <div className="soft-button" onClick={this.toggleMenu}>Menu <div className="long-menu-icon"></div></div>
           </div>
         </div>
+        <div className="floating-block-i"></div>
       </header>
     </main>
   )

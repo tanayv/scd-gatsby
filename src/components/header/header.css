@@ -23,6 +23,14 @@ header .social-link-row {
     width: calc(100% / 3);
 }
 
+header .floating-block-i {
+    height: 80px;
+    width: 80px;
+    background: #11294B;
+    position: absolute;
+    top: 120px;
+}
+
 .titlespace {
     width: calc(100% / 3);
     height: 100%;

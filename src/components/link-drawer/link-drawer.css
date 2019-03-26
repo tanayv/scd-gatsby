@@ -1,20 +1,21 @@
 .link-drawer .option {
     color: #69C8C4;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
+    position: relative;
+    margin-bottom: 10px;
  }
 
  .link-drawer {
-    height: 400px;
+    height: 500px;
  }
  
  .link-drawer .option:hover {
      color: #258d88;
  }
-
 
  .link-drawer .content {
      padding: 10px;
@@ -27,4 +28,17 @@
  .link-drawer .content.inactive {
     display: none;
     transition: 1s all ease-in-out;
+ }
+
+ .option-container .chevron {
+   position: absolute;
+   top: 0;
+   right: 0;
+   font-size: 1rem;
+   color: #69C8C4;
+ }
+
+ .option-container {
+   position: relative;
+   cursor: pointer;
  }

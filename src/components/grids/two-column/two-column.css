@@ -19,3 +19,11 @@
     text-align: left;
     margin-bottom: 20px;
 }
+
+hr {
+    width: 100%;
+    background-color: #048B90;
+    height: 2px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}

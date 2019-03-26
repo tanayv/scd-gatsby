@@ -7,6 +7,7 @@ import GridBox from "../components/grids/grid-box/grid-box";
 import LinkDrawer from "../components/link-drawer/link-drawer";
 import { Helmet } from "react-helmet";
 import {Link} from "gatsby"
+import ColorBanner from "./../components/banner/color/color";
 
 const leftColumn = <><p className="serif">We are the Siebel Center for Design—SCD for short. 
   We believe in using Human-Centered Design (HCD) as an approach to… </p><p className="serif"> 
@@ -23,11 +24,12 @@ const IndexPage = () => (
     <Carousel data={carouselData}/>
     <Hello/>
     <TwoColumnGrid title="We're glad you're here" left={leftColumn} right={<LinkDrawer options={linkDrawerOptions}/>}></TwoColumnGrid>
-    <h2 className="serif">What's going on with us</h2>
+    <ColorBanner text="We have lots of cool stuff happening, so have a look around and see what’s up!" theme="teal"/>
     <GridBox tabs={[`Stories`, `Events`]}/>
-    <h2 className="serif">Something to know about SCD.</h2>
-    <GridBox theme="teal" data={gridBoxSlides}>
-    </GridBox>
+    <h2 className="serif">Cool stuff we've done!</h2>
+    <GridBox theme="teal" data={gridBoxSlides}/>
+    <h2 className="serif">Ongoing Happenings!</h2>
+    <h2 className="serif">Cool stuff coming up...</h2>
   </Layout>
   </>
 )
@@ -90,7 +92,13 @@ const linkDrawerOptions = [
       <li>Collaborators Wanted! <br/> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please contact us!</li>
       <li>Events <br/> Want to get a taste of SCD? Join us at one of our events! All are welcome to attend!</li>
     </ul>  )},
-  {"title": "Join the team", "content": (
+  {"title": "For External Partners", "content": (
+    <ul>
+      <li>Pilot a Course with SCD <br/> Are you a professor on campus? Do feel that design thinking would be a great addition to your course? Let us know! We’re looking to work with as many courses as we can. </li>
+      <li>Collaborators Wanted! <br/> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please contact us!</li>
+      <li>Events <br/> Want to get a taste of SCD? Join us at one of our events! All are welcome to attend!</li>
+    </ul>  )},
+  {"title": "For Everyone Else!", "content": (
     <ul>
       <li>Available Openings <br/> SCD is expanding, and we are looking to hire the most creative and collaborative individuals we can find! If you have a passion for design thinking and human-centered design, be sure to check out our openings and see if you meet our application qualifications! </li>
       
