@@ -42,3 +42,18 @@
    position: relative;
    cursor: pointer;
  }
+
+ .link-drawer ul li {
+   font-family: "Georgia", serif;
+   font-size: 1.2rem;
+   line-height: 1.4rem;
+   color: #11294B;
+   margin-bottom: 20px;
+ }
+
+ .link-drawer ul li h1 {
+    font-size: 1.2rem;
+    color: #11294B;
+    margin: 0;
+    font-family: "Georgia", serif;
+ }

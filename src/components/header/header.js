@@ -4,6 +4,7 @@ import React from "react"
 import SocialLinks from "./../social-links/social-links";
 import Menu from "./../menu/menu";
 import "./header.css"
+import ImageBlob from "./../image-blob/image-blob";
 
 class Header extends React.Component {
 
@@ -43,7 +44,11 @@ class Header extends React.Component {
             <div className="soft-button" onClick={this.toggleMenu}>Menu <div className="long-menu-icon"></div></div>
           </div>
         </div>
-        <div className="floating-block-i"></div>
+        <a class="floating-i" target="_blank" href="https://illinois.edu">
+          <div className="floating-block-i">
+            <ImageBlob name="topFloatingI"/>
+          </div>
+        </a>  
       </header>
     </main>
   )

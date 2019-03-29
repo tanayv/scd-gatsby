@@ -1,0 +1,108 @@
+.three-grid {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    margin: 30px 0 60px 0;
+}
+
+.three-grid hr.main-divider {
+    background-color: #048B90;
+    height: 2px;
+}
+
+.three-grid p {
+    margin-top: 0;
+    font-family: "Georgia", serif;
+    color: #11294B;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.grid-container {
+    position: relative;
+    width: 100%;
+}
+
+.grid-container .grid-column {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid-container .grid-column.narrow {
+    width: 40%;
+    font-size: initial;
+    margin-right: 20px;
+}
+
+.grid-container .grid-column.wide {
+    width: calc(60% - 20px);
+    font-size: initial;
+}
+
+.grid-container .grid-column.narrow .grid-element {
+    height: 720px;
+}
+
+.grid-container .grid-column.wide .grid-element {
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.grid-container .grid-column .grid-element {
+    position: relative;
+    padding: 0;
+}
+
+.grid-container .grid-column .grid-element .image-blob {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container .grid-column .grid-element .content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 41, 75, 0.8);
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+    opacity: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.grid-container .grid-column .grid-element .content hr {
+    background-color: #FFD00F;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+}
+
+.grid-container .grid-column.narrow .grid-element .content hr {
+    right: 60px;
+}
+
+.grid-container .grid-column.wide .grid-element .content hr {
+    left: 60px;
+}
+
+.grid-container .grid-column .grid-element .content h2 {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Georgia", serif;
+}
+
+.grid-container .grid-column .grid-element .content h1 {
+    letter-spacing: 0.2px;
+}
+
+.grid-container .grid-column .grid-element .content:hover {
+    opacity: 1;
+    font-size: initial;
+    
+}

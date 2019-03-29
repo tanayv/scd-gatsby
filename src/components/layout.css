@@ -661,3 +661,13 @@ p.serif {
   text-align: left;
   margin-bottom: 20px;
 }
+
+
+/** Widescreen Display Layout Fixes */
+
+@media (min-width: 1766px) {
+  .scd-cw-75 {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
