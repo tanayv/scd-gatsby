@@ -16,21 +16,28 @@ const CarouselSlide = (props) => (
   <StaticQuery
     query={graphql`
       query {
-        siebel_carousel: file(relativePath: { eq: "siebel_carousel.png" }) {
+        siebel_carousel: file(relativePath: { eq: "index/banner_siebel.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        welcome_carousel: file(relativePath: { eq: "welcome_carousel.png" }) {
+        welcome_carousel: file(relativePath: { eq: "index/banner_welcome.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        contact_carousel: file(relativePath: { eq: "contact_carousel.png" }) {
+        resources_carousel: file(relativePath: { eq: "index/banner_resources.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        newsletter_carousel: file(relativePath: { eq: "index/banner_newsletter.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid

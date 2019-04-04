@@ -32,6 +32,13 @@
     height: 100%;
     z-index: 10;
     background: rgba(4, 139, 144, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.storybook-grid .grid-element .overlay.gray {
+    background: rgba(209, 209, 209, 0.6);
 }
 
 .storybook-grid .grid-element .element-contents {
@@ -86,6 +93,110 @@
     }
 
     .storybook-grid .grid-element .element-contents h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/** Begin Tiberian Grid **/
+.tiberian-grid {
+    font-size: 0;
+    margin-bottom: 50px;
+}
+
+.tiberian-grid .grid-element {
+    width: 50%;
+    padding-top: 50%;
+    background-size: contain;
+    display: inline-block;
+    min-height: 1px;
+    position: relative;
+    
+}
+
+.tiberian-grid .grid-element.default {
+    cursor: pointer;
+}
+
+.tiberian-grid .grid-element .image-blob {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tiberian-grid .grid-element .overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(4, 139, 144, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tiberian-grid .grid-element .overlay.gray {
+    background: rgba(236, 236, 236, 0.87);
+}
+
+.tiberian-grid .grid-element .element-contents {
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    font-size: initial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tiberian-grid .grid-element .element-contents .title-slide {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.tiberian-grid .grid-element .element-contents .title-slide .close-button {
+    font-size: 2rem;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.tiberian-grid .grid-element .element-contents h1 {
+    font-size: 2.5rem;
+    color: #000;
+    margin: 0;
+    width: 88%;
+    text-align: center;
+}
+
+.tiberian-grid .grid-element .element-contents h2 {
+    display: inline-block;
+}
+
+
+@media (max-width: 800px) {
+    
+    .tiberian-grid .grid-element {
+        width: 100%;
+    }
+
+    .tiberian-grid .grid-element .element-contents h1 {
         font-size: 1.5rem;
     }
 }

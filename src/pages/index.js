@@ -4,6 +4,7 @@ import Carousel from "../components/carousel/carousel";
 import Hello from "../components/banner/hello/hello";
 import TwoColumnGrid from "../components/grids/two-column/two-column";
 import GridBox from "../components/grids/grid-box/grid-box";
+import GridList from "../components/grids/grid-list/grid-list";
 import LinkDrawer from "../components/link-drawer/link-drawer";
 import { Helmet } from "react-helmet";
 import ColorBanner from "./../components/banner/color/color";
@@ -11,7 +12,7 @@ import ThreeElementGrid from "./../components/grids/three-element-grid/three-ele
 
 
 /** Import Content */
-import { threeElementGrid1, threeElementGrid2, linkDrawerOptions, stackedSlides } from "../content/index";
+import { carouselData, threeElementGrid1, threeElementGrid2, linkDrawerOptions, stackedSlides } from "../content/index";
 
 const leftColumn = <><p className="serif">We are the Siebel Center for Design—SCD for short. 
   We believe in using Human-Centered Design (HCD) as an approach to… </p><p className="serif"> 
@@ -29,12 +30,11 @@ const IndexPage = () => (
     <Hello/>
     <TwoColumnGrid title="We're glad you're here" left={leftColumn} right={<LinkDrawer options={linkDrawerOptions}/>}></TwoColumnGrid>
     <ColorBanner text="We have lots of cool stuff happening, so have a look around and see what’s up!" theme="teal"/>
-    <GridBox tabs={[`Stories`, `Events`]}/>
     <h2 className="serif">Cool stuff we've done!</h2>
     <ThreeElementGrid data={threeElementGrid1}/>
     
     <h2 className="serif">Ongoing Happenings!</h2>
-    <GridBox theme={stackedSlides.theme} data={stackedSlides.slides}/>
+    <GridList theme={stackedSlides.theme} data={stackedSlides.slides}/>
     <h2 className="serif">Cool stuff coming up...</h2>
     <ThreeElementGrid data={threeElementGrid2}/>
   </Layout>
@@ -42,23 +42,7 @@ const IndexPage = () => (
 )
 
 
-const carouselData = [
-  {
-    "image": "siebel_carousel",
-    "title": "Meet the Guiding force behind the Siebel Center for Design",
-    "link": ""
-  },
-  {
-    "image": "welcome_carousel",
-    "title": "Welcome to the Siebel Center for Design",
-    "link": ""
-  },
-  {
-    "image": "contact_carousel",
-    "title": "We can’t wait to hear from you!",
-    "link": ""
-  },
-]
+
 
 
 export default IndexPage

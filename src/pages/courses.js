@@ -2,8 +2,8 @@ import React from "react"
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import ImageBanner from "../components/banner/image-banner/image-banner";
-import GridBox from "../components/grids/grid-box/grid-box";
-
+import GridList from "../components/grids/grid-list/grid-list";
+import ColorBanner from "../components/banner/color/color";
 
 
 const CoursesPage = () => (
@@ -14,8 +14,16 @@ const CoursesPage = () => (
     </Helmet>
     <Layout>
         <ImageBanner page="courses" title="courses for students"/>
-        <GridBox theme="purple" data={gridBoxSlides}>
-        </GridBox>
+        <div className="scd-cw-75">
+          <h2 className="serif">Check out some of the classes we’ve been running!</h2>
+          <hr className="teal-separator"/>
+          <p className="serif">At SCD, we have been piloting several courses that incorporate design thinking and human-centered design into the curriculum. These courses are being prototyped in many different colleges across the campus as we strive to 
+  be multidisciplinary and interact with as many departments as possible. Our overall goal is to integrate design thinking throughout the university, from students entering their first year to those in capstone courses during 
+  their final semesters.</p>
+        </div>
+        <ColorBanner text="We are Integrating Design Thinking into Courses!" theme="teal"/>
+        <h2 className="serif">View some of our Course Prototypes!</h2>
+        <GridList theme="teal" data={gridBoxSlides}/>
     </Layout>
     </>
 )
@@ -40,13 +48,13 @@ const gridBoxSlides = [
     "tabTitle": "ECE 445",
     "textTitle": "ECE 445",
     "paragraphs": <p className="serif">AMA= "Ask Me Anything," and that's what Rachel, Director of the Siebel Center for Design, wants you to do! Are you still unsure what the Siebel Center for Design does? Do you want to learn more about Design Thinking? Do you think Rachel is an AWESOME Boss Lady and want to have coffee with her? Come out to one of her AMA Coffee Hours! These coffee hours happen every month, so check out our calendar to see when the next one is.</p>,
-    "image": "coffee_hours"
+    "image": "hq_coming_soon"
   },
   {
     "tabTitle": "EDU 201",
     "textTitle": "EDU 201",
     "paragraphs": <p className="serif">AMA= "Ask Me Anything," and that's what Rachel, Director of the Siebel Center for Design, wants you to do! Are you still unsure what the Siebel Center for Design does? Do you want to learn more about Design Thinking? Do you think Rachel is an AWESOME Boss Lady and want to have coffee with her? Come out to one of her AMA Coffee Hours! These coffee hours happen every month, so check out our calendar to see when the next one is.</p>,
-    "image": "coffee_hours"
+    "image": "hq_coming_soon"
   },
   {
     "tabTitle": "TE 401",
@@ -58,25 +66,25 @@ const gridBoxSlides = [
     "tabTitle": "SOC 162",
     "textTitle": "SOC 162",
     "paragraphs": <p className="serif">AMA= "Ask Me Anything," and that's what Rachel, Director of the Siebel Center for Design, wants you to do! Are you still unsure what the Siebel Center for Design does? Do you want to learn more about Design Thinking? Do you think Rachel is an AWESOME Boss Lady and want to have coffee with her? Come out to one of her AMA Coffee Hours! These coffee hours happen every month, so check out our calendar to see when the next one is.</p>,
-    "image": "coffee_hours"
+    "image": "hq_coming_soon"
   },
   {
     "tabTitle": "INFO 490",
     "textTitle": "INFO 490",
     "paragraphs": <p className="serif">AMA= "Ask Me Anything," and that's what Rachel, Director of the Siebel Center for Design, wants you to do! Are you still unsure what the Siebel Center for Design does? Do you want to learn more about Design Thinking? Do you think Rachel is an AWESOME Boss Lady and want to have coffee with her? Come out to one of her AMA Coffee Hours! These coffee hours happen every month, so check out our calendar to see when the next one is.</p>,
-    "image": "coffee_hours"
+    "image": "hq_coming_soon"
   },
   {
     "tabTitle": "ME 170",
     "textTitle": "ME 170",
     "paragraphs": <p className="serif">AMA= "Ask Me Anything," and that's what Rachel, Director of the Siebel Center for Design, wants you to do! Are you still unsure what the Siebel Center for Design does? Do you want to learn more about Design Thinking? Do you think Rachel is an AWESOME Boss Lady and want to have coffee with her? Come out to one of her AMA Coffee Hours! These coffee hours happen every month, so check out our calendar to see when the next one is.</p>,
-    "image": "coffee_hours"
+    "image": "hq_coming_soon"
   },
   {
     "tabTitle": "ME 270",
     "textTitle": "ME 270",
     "paragraphs": <p className="serif">AMA= "Ask Me Anything," and that's what Rachel, Director of the Siebel Center for Design, wants you to do! Are you still unsure what the Siebel Center for Design does? Do you want to learn more about Design Thinking? Do you think Rachel is an AWESOME Boss Lady and want to have coffee with her? Come out to one of her AMA Coffee Hours! These coffee hours happen every month, so check out our calendar to see when the next one is.</p>,
-    "image": "coffee_hours"
+    "image": "hq_coming_soon"
   },
   ]
   

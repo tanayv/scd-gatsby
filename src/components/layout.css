@@ -656,12 +656,16 @@ h3.serif {
 p.serif {
   font-family: "Georgia", serif;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
   text-align: left;
   margin-bottom: 20px;
 }
 
+hr.teal-separator {
+  background-color: #048B90;
+  height: 2px;
+}
 
 /** Widescreen Display Layout Fixes */
 @media (min-width: 1766px) {

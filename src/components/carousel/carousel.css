@@ -2,10 +2,10 @@
 .carousel {
     width: 100%;
     position: relative;
-    padding-top: 30%; /* Aspect Ratio of 32:13 */
+    padding-top: 34%; /* Aspect Ratio of 32:13 */
 }
 
-.overlay {
+.carousel .overlay {
     background: #3a3a3a;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,15 +14,19 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 20px 40px;
-    transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.overlay .tile-display {
-    width: 60%;
+.carousel .overlay .text-container {
+    width: 100%;
+    background-color: rgba(17, 41, 75, 0.562);
+    padding: 20px;
+}
+
+.overlay .text-container  .tile-display {
+    width: 80%;
     text-align: right;
     float: right;
 }

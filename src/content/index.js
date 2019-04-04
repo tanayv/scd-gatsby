@@ -1,8 +1,28 @@
 import React from "react";
 import {Link} from "gatsby"
 
-const carouselData = {};
-
+const carouselData = [
+  {
+    "image": "resources_carousel",
+    "title": "We love sharing our inspo… Design Resources coming soon!",
+    "link": ""
+  },
+  {
+    "image": "welcome_carousel",
+    "title": "Welcome to the Siebel Center for Design",
+    "link": ""
+  },
+  {
+    "image": "newsletter_carousel",
+    "title": "Join our Newsletter and get the latest on SCD activities!",
+    "link": ""
+  },
+  {
+    "image": "siebel_carousel",
+    "title": "Tom Siebel and the Siebel Center for Design",
+    "link": ""
+  },
+]
 
 const threeElementGrid1 = {
     "theme": "teal", 
@@ -45,7 +65,7 @@ const stackedSlides = {
       "textTitle": "Social Innovation Spotlight",
       "paragraphs": <><p className="serif">One of our main initiatives at SCD is to broaden the definition of innovation to include innovations within the social sphere. There are so many inspiring individuals and groups affiliated with our university that are creating change with their innovative ideas. We thought highlighting some of these people would be a great way to inspire others to dive deeper into social innovation, so we created the Social Innovation Spotlight. We share a different individual or group’s story each week on our social media pages as well as on our <a href="/stories">Social Innovation Spotlight page</a>. Make sure you check it out!</p><p className="serif">If you or someone you know is working on a socially innovative project that you think should be spotlighted, please email us.</p></>,
       "links": [],
-      "image": "hq_coming_soon"
+      "image": "social_spotlight"
     },
     {
       "tabTitle": "Coffee Hours!",

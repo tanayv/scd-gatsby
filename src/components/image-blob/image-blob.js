@@ -191,6 +191,28 @@ const ImageBlob = (props) => (
             }
           }
         }
+        jobs1: file(relativePath: { eq: "jobs/jobs1.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        jobs2: file(relativePath: { eq: "jobs/jobs2.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        jobs3: file(relativePath: { eq: "jobs/jobs3.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
 
       }
     `}

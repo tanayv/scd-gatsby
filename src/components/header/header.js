@@ -44,7 +44,7 @@ class Header extends React.Component {
             <div className="soft-button" onClick={this.toggleMenu}>Menu <div className="long-menu-icon"></div></div>
           </div>
         </div>
-        <a class="floating-i" target="_blank" href="https://illinois.edu" rel="noopener noreferrer">
+        <a className="floating-i" target="_blank" href="https://illinois.edu" rel="noopener noreferrer">
           <div className="floating-block-i">
             <ImageBlob name="topFloatingI"/>
           </div>

@@ -22,6 +22,8 @@ const StoriesPage = () => (
             <h2 className="serif">As designers, we are storytellers.</h2>
             <h3 className="serif">{`Here at SCD, we have a LOT going on! From courses to coffee hours and everything in between, we have many stories to share about our experiences on campus. We thought that, rather than keep our adventures to ourselves, we should have a space where we can share them. Feel free to look around and explore our past, present, and future!
             `}</h3>
+            <h2 className="serif">Event Snapshots</h2>
+            <hr className="teal-separator"/>
             <StorybookGrid data={storybookGridData}/>
         </div>
     </Layout>

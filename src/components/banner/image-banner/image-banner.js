@@ -31,14 +31,28 @@ const ImageBanner = (props) => (
             }
           }
         }
-        stories: file(relativePath: { eq: "stories.png" }) {
+        stories: file(relativePath: { eq: "stories/banner.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        courses: file(relativePath: { eq: "courses.png" }) {
+        courses: file(relativePath: { eq: "courses/banner.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        about: file(relativePath: { eq: "about/banner.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        jobs: file(relativePath: { eq: "jobs/banner.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid

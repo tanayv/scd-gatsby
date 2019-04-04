@@ -13,33 +13,38 @@ const Footer = () => (
                     <h2>designcenter@illinois.edu</h2>
                     <h2>217–300–9100</h2>
                 </div>
-                <div className="cell">
-                    <Link to="/events"><h1>Events</h1></Link>
-                    <p>Upcoming</p>
-                    <p>Archives</p>
-                </div>
-                <div className="cell">
-                    <Link to="/events"><h1>Stories</h1></Link>
-                    <Link to="/social-innovation-spotlight"><p>Social Innovation Spotlight</p></Link>
-                    <Link to="/collaborators"><p>Collaborators</p></Link>
-                    <Link to="/archives"><p>Archives</p></Link>
-                </div>
             </div>
             <div className="row">
-                <div className="cell wide">
+            <div className="cell">
+                    <Link to="/about"><h1>About</h1></Link>
+                    <p>Director</p>
+                    <p>Tom Siebel</p>
+                    <p>Core Team</p>
+                    <p>Building</p>
+                </div>
+                <div className="cell">
+                    <Link to="/connect"><h1>Connect</h1></Link>
+                    <p>Contact Info</p>
+                    <p>Newsletter</p>
+                    <p>Donate</p>
+                    <p>FAQ</p>
+                </div>
+                <div className="cell">
+                    <Link to="/stories"><h1>Stories</h1></Link>
+                    <Link to="/stories"><p>Past Events</p></Link>
+                </div>
+                <div className="cell">
+                    <Link to="/courses"><h1>Courses</h1></Link>
+                    <Link to="/courses"><p>Prototyping</p></Link>
+                    <Link to="/courses"><p>SCD Courses</p></Link>
                 </div>
                 <div className="cell">
                     <Link to="/resources"><h1>Resources</h1></Link>
-                    <Link to="/readings"><p>Readings</p></Link>
-                    <Link to="/articles"><p>Articles</p></Link>
-                    <Link to="/videos"><p>Videos</p></Link>
-                    <Link to="/websites"><p>Websites</p></Link>
-                    <Link to="/companies"><p>Companies</p></Link>
+                    <Link to="/resources"><p>Coming Soon!</p></Link>
                 </div>
                 <div className="cell">
-                    <Link to="/news"><h1>News</h1></Link>
-                    <Link to="/news/subscribe"><p>Newsletter Signup</p></Link>
-                    <Link to="/news/past-editions"><p>Archives</p></Link>
+                    <Link to="/jobs"><h1>Jobs</h1></Link>
+                    <Link to="/jobs"><p>Openings</p></Link>
                 </div>
             </div>
             <div className="row">

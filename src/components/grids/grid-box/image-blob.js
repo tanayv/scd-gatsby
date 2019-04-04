@@ -49,6 +49,30 @@ const ImageBlob = (props) => (
           }
         }
 
+        about_rachel: file(relativePath: { eq: "about/rachel_swtizky.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        about_siebel: file(relativePath: { eq: "about/thomas_siebel.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        core_team: file(relativePath: { eq: "about/core_team.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
       }
     `}
     render={data =>
