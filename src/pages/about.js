@@ -32,7 +32,6 @@ const AboutPage = () => (
         <title>SCD / About</title>
     </Helmet>
     <Layout>
-        <ImageBanner page="about" title="all about SCD"/>
         <div className="scd-cw-75">
           <h2 className="serif">What is SCD?</h2>
           <hr className="teal-separator"/>
