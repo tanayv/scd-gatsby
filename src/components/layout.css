@@ -664,10 +664,16 @@ p.serif {
 
 
 /** Widescreen Display Layout Fixes */
-
 @media (min-width: 1766px) {
   .scd-cw-75 {
     width: 50%;
     margin: 0 auto;
+  }
+}
+
+/** General Mobile Display */
+@media (max-width: 800px) {
+  .scd-cw-75 {
+    width: 95%;
   }
 }

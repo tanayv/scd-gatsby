@@ -6,7 +6,9 @@ class Menu extends React.Component {
 
 
     render = () => (
-        <div className="menu-overlay">
+        <div className="menu-overlay" onClick={(e) => {
+            this.props.onCloseButtonPress(e);
+        }}>
             <div className="menu">
                 <div className="menu-content-container">
                     <Link to="/"><h1>Siebel Center for Design</h1></Link>

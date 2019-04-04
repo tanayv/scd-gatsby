@@ -6,13 +6,13 @@ class LinkDrawer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeDrawer: 0
+            activeDrawer: -1
         }
     }
 
     toggleDrawer = (e, key) => {
         e.preventDefault();
-        if (this.state.activeDrawer == key)
+        if (this.state.activeDrawer === key)
             this.setState({activeDrawer: -1});
         else
             this.setState({activeDrawer: key})
@@ -52,7 +52,7 @@ export default LinkDrawer
 
 class Chevron extends React.Component {
     render = () => {
-        if (this.props.status == "active")
+        if (this.props.status === "active")
             return (<div className="chevron"><i class="fas fa-chevron-up"></i></div>)
         else
             return (<div className="chevron"><i class="fas fa-chevron-down"></i></div>)

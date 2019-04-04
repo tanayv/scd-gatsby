@@ -78,8 +78,6 @@
     background-color: #FFD00F;
     height: 2px;
     width: 100%;
-    position: absolute;
-    top: 70px;
 }
 
 .grid-container .grid-column.narrow .grid-element .content hr {

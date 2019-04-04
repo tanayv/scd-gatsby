@@ -13,11 +13,6 @@ class GridBoxSlide extends React.Component {
                 <h1>{this.props.textTitle}</h1>
                 <hr/>
                 {this.props.paragraphs}
-                {this.props.links.map((link, key) => (
-                    <a href={link.url} key={key}>
-                        {link.display}
-                    </a>
-                ))}
             </div>
         </div>
     )

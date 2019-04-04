@@ -1,0 +1,91 @@
+.storybook-grid {
+    font-size: 0;
+    margin-bottom: 50px;
+}
+
+.storybook-grid .grid-element {
+    width: 50%;
+    padding-top: 50%;
+    background-size: contain;
+    display: inline-block;
+    min-height: 1px;
+    position: relative;
+    
+}
+
+.storybook-grid .grid-element.default {
+    cursor: pointer;
+}
+
+.storybook-grid .grid-element .image-blob {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.storybook-grid .grid-element .overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(4, 139, 144, 0.6);
+}
+
+.storybook-grid .grid-element .element-contents {
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    font-size: initial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.storybook-grid .grid-element .element-contents .title-slide {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.storybook-grid .grid-element .element-contents .title-slide .close-button {
+    font-size: 2rem;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.storybook-grid .grid-element .element-contents h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
+    width: 88%;
+    text-align: center;
+}
+
+.storybook-grid .grid-element .element-contents .title-slide h1 {
+    color: #11294B
+}
+
+@media (max-width: 800px) {
+    
+    .storybook-grid .grid-element {
+        width: 100%;
+    }
+
+    .storybook-grid .grid-element .element-contents h1 {
+        font-size: 1.5rem;
+    }
+}

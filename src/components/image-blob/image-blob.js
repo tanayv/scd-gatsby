@@ -16,6 +16,13 @@ const ImageBlob = (props) => (
   <StaticQuery
     query={graphql`
       query {
+        topFloatingI: file(relativePath: { eq: "white-block-I.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         index1: file(relativePath: { eq: "index/three-element-grid-1.png" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
@@ -58,7 +65,126 @@ const ImageBlob = (props) => (
             }
           }
         }
-        topFloatingI: file(relativePath: { eq: "white-block-I.png" }) {
+        stories1a: file(relativePath: { eq: "stories/quad-day-party/stories1a.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories1b: file(relativePath: { eq: "stories/quad-day-party/stories1b.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories1c: file(relativePath: { eq: "stories/quad-day-party/stories1c.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories1d: file(relativePath: { eq: "stories/quad-day-party/stories1d.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories1e: file(relativePath: { eq: "stories/quad-day-party/stories1e.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories2a: file(relativePath: { eq: "stories/dorm-room-in-an-office/stories2a.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories2b: file(relativePath: { eq: "stories/dorm-room-in-an-office/stories2b.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories2e: file(relativePath: { eq: "stories/dorm-room-in-an-office/stories2e.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories3a: file(relativePath: { eq: "stories/pop-ups/stories3a.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories3b: file(relativePath: { eq: "stories/pop-ups/stories3b.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories3c: file(relativePath: { eq: "stories/pop-ups/stories3c.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories3e: file(relativePath: { eq: "stories/pop-ups/stories3e.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories3f: file(relativePath: { eq: "stories/pop-ups/stories3f.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories4b: file(relativePath: { eq: "stories/cat-hackathon/stories4b.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories4c: file(relativePath: { eq: "stories/cat-hackathon/stories4c.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories4d: file(relativePath: { eq: "stories/cat-hackathon/stories4d.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories4e: file(relativePath: { eq: "stories/cat-hackathon/stories4e.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories4f: file(relativePath: { eq: "stories/cat-hackathon/stories4f.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
