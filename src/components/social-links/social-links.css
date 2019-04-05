@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.social-link-row a {
+    text-decoration: none !important;
+    border: none !important;
+}
+
 .social-link-row.blue .social-link {
     background-color: #11294B;
     color: #fff;

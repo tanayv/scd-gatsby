@@ -57,6 +57,54 @@ const ImageBlob = (props) => (
           }
         }
 
+        courses1: file(relativePath: { eq: "courses/courses1.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        courses2: file(relativePath: { eq: "courses/courses2.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        courses3: file(relativePath: { eq: "courses/courses3.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        courses4: file(relativePath: { eq: "courses/courses4.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        courses5: file(relativePath: { eq: "courses/courses5.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        courses6: file(relativePath: { eq: "courses/courses6.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
       }
     `}
     render={data =>

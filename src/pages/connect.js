@@ -2,29 +2,56 @@ import React from "react"
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import ImageBanner from "./../components/banner/image-banner/image-banner";
-import TwoColumnGrid from "../components/grids/two-column/two-column";
 
-const leftColumnDefinition = <><p class="serif">Ut wisi enim ad minim veniam, quis nostrud exerci 
-    tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p></>;
+import TextSplit from "./../components/grids/text-split";
+import SocialLinks from './../components/social-links/social-links';
+import Snapshot from "./../components/snapshot/snapshot";
 
-const imageGalleryDefinition = [
-    {
-        "title": "Web Developer",
-        "image": "gt-web-developer"
-    },
-    {
-        "title": "Communication Partner",
-        "image": "gt-communication-partner"
-    },
-    {
-        "title": "Development Intern",
-        "image": "gt-dev-intern"
-    },
-    {
-        "title": "Design Intern",
-        "image": "gt-design-intern"
-    }
-]
+
+const leftColumnDefinition = 
+    <>
+        <p class="serif">
+        Check out our <a href="/">past Newsletters</a>
+        </p>
+        <p class="serif">
+        Wanna chat? Shoot us an email at <a href="mailto: designcenter@illinois.edu">designcenter@illinois.edu</a>
+        </p>
+        <p class="serif">
+        Connect with us over social media
+        <SocialLinks theme="black"/>
+        </p>
+    </>;
+
+
+
+const rightColumnDefinition = 
+    <>
+        <p class="serif">
+        We always have events and activities happening, so sign up for our <a href="/">Newsletter</a> and follow us on social media to stay up-to-date on all things SCD!
+        </p>
+        <p class="serif">
+        Are you a professor? Interested in integrating design thinking into your courses? Send us an email <a href="mailto: designcenter@illinois.edu">here</a>!
+        </p>
+        <p class="serif">
+        Check out our <a href="/jobs">employment opportunities</a> in the Jobs page or read our FAQ <a href="">here</a>!
+        </p>
+    </>;
+
+const donateSnapshotData = {
+    heading: "Donate to SCD",
+    title: "",
+    body: <>
+            <p className="serif">
+            If you would like to donate to SCD, first off, THANK YOU!!
+            </p>
+            <p className="serif">
+            Please, <a href="mailto: designcenter@illinois.edu">send us an email</a> and we will work with you to determine what your donation will be used for!
+            </p>
+          </>,
+    mainImage: "connect1",
+    images: []
+  }
+
 
 const ConnectPage = () => (
     <>
@@ -34,7 +61,11 @@ const ConnectPage = () => (
     </Helmet>
     <Layout>
         <ImageBanner page="connect" title="connect with us!"/>
-        <TwoColumnGrid title="Join the SCD Squad!" left={leftColumnDefinition} right={leftColumnDefinition}></TwoColumnGrid>
+        <div className="scd-cw-75">
+            <h1 className="serif">Stay Up-to-Date on All Things SCD</h1>
+            <TextSplit left={leftColumnDefinition} right={rightColumnDefinition}/>
+            <Snapshot data={donateSnapshotData}/>
+        </div>
     </Layout>
     </>
 )

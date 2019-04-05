@@ -15,7 +15,7 @@ class TiberianGrid extends React.Component {
 
     generateGridElement = (elementData, index, selectedElements) => {
         let gridElement;
-        if (selectedElements.indexOf(index) != -1) {
+        if (selectedElements.indexOf(index) !== -1) {
             // This element is selected
             gridElement = <div className="grid-element" key={index}>
                 <ImageBlob name={elementData.image} grayscale="true"/>

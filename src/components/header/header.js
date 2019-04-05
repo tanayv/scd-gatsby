@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import SocialLinks from "./../social-links/social-links";
 import Menu from "./../menu/menu";
 import "./header.css"
 import ImageBlob from "./../image-blob/image-blob";
@@ -34,10 +33,9 @@ class Header extends React.Component {
       {this.spawnMenu()}
       <header className="flex">
         <div className="scd-cw-90 scd-fill-height">
-          <SocialLinks theme="blue"/>
           <div className="titlespace">
-            <Link to="/">
-              <h1>SCD</h1>
+          <Link to="/">
+              <h1>Siebel Center for Design</h1>
             </Link>
           </div>
           <div className="menu-icon-space">

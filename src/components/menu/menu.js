@@ -17,7 +17,6 @@ class Menu extends React.Component {
                     <Link to="/connect" activeClassName="active"><div className="menu-option">Connect</div></Link>
                     <Link to="/stories" activeClassName="active"><div className="menu-option">Stories</div></Link>
                     <Link to="/courses" activeClassName="active"><div className="menu-option">Courses</div></Link>
-                    <Link to="/resources" activeClassName="active"><div className="menu-option">Resources</div></Link>
                     <Link to="/jobs" activeClassName="active"><div className="menu-option">Jobs</div></Link>
                 </div>
                 <div className="menu-close-button">

@@ -200,3 +200,55 @@
         font-size: 1.5rem;
     }
 }
+
+
+.text-split {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text-split .left-column {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text-split .right-column {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.people-grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.people-grid .card {
+    width: calc(100%/3 - 10px);
+    height: 250px;
+}
+
+.people-grid .card .image-holder {
+    width: 100%;
+    min-height: 5px;
+    padding-top: 50%;
+}
+
+.people-grid .card span.person-name {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #11294B;
+}
+
+.people-grid .card span.person-role {
+    display: block;
+    font-family: 'Georgia', serif;
+    color: #11294B;
+}

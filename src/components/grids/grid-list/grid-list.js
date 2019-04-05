@@ -18,9 +18,10 @@ class GridList extends React.Component {
         return (
         <div className={gridBoxClasses}>
             <div className="scd-cw-75">
-            <hr className="teal-separator"/>
+            <h1 className="serif">{this.props.title}</h1>
                 {this.props.data.map((slide, key) => (
                     <GridBoxSlide key={key}
+                    italicTitle={slide.italicTitle}
                     tabTitle={slide.tabTitle}
                     textTitle={slide.textTitle}
                     paragraphs={slide.paragraphs}

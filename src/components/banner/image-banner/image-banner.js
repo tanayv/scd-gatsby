@@ -24,7 +24,7 @@ const ImageBanner = (props) => (
             }
           }
         }
-        connect: file(relativePath: { eq: "connect.png" }) {
+        connect: file(relativePath: { eq: "connect/banner.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid
@@ -68,7 +68,6 @@ const ImageBanner = (props) => (
         backgroundImage: `url(${data[props.page].childImageSharp.fluid.src})`
       }
     }>
-      <div className="text-line">{props.title}</div>
     </div>
     </>
 }

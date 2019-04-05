@@ -10,20 +10,7 @@
 
 }
 
-.two-column-grid .grid-column p.serif {
-    font-family: "Georgia", serif;
-    color: #11294B;
-    font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 2rem;
-    text-align: left;
-    margin-bottom: 20px;
-}
 
-.two-column-grid hr {
-    width: 100%;
-    background-color: #048B90;
-    height: 2px;
-    margin-top: 50px;
-    margin-bottom: 0;
+.two-column-grid {
+    margin-bottom: 100px;
 }

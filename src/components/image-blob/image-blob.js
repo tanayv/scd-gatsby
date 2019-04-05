@@ -212,6 +212,41 @@ const ImageBlob = (props) => (
             }
           }
         }
+        about1: file(relativePath: { eq: "about/sticker1.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        about13: file(relativePath: { eq: "about/thomas_siebel.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        about14: file(relativePath: { eq: "about/building1.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        about15: file(relativePath: { eq: "about/building2.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        connect1: file(relativePath: { eq: "connect/image.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
 
 
       }

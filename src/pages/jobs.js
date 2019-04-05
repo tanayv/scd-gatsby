@@ -2,8 +2,8 @@ import React from "react"
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import ImageBanner from "./../components/banner/image-banner/image-banner";
-import TiberianGrid from "./../components/grids/tiberian-grid";
-import { tiberianGridData } from "./../content/jobs"
+import TextSplit from "./../components/grids/text-split";
+import { jobData } from "./../content/jobs";
 
 const ConnectPage = () => (
     <>
@@ -14,7 +14,11 @@ const ConnectPage = () => (
     <Layout>
         <ImageBanner page="jobs" title="join the SCD squad!"/>
         <div className="scd-cw-75">
-            <TiberianGrid data={tiberianGridData}/>
+            <TextSplit left={<h1 className="serif">Check out our Job Openings!</h1>} right={<p className="serif">Do YOU heart SCD so much that you want to join our team? We have several job opportunities open at this time, and are always adding more! Check back later if you don’t see a position that fits your specific talents.</p>}/>
+            <hr/>
+            {jobData.map((listing, key) => (
+                <TextSplit left={<><h2 className="job-listing">{listing.titlePosition}</h2><h1 className="job-listing">{listing.titleOps}</h1></>} right={<p className="serif">{listing.description} <br/><br/> <a href="/">Full job description and application here.</a></p>}/>
+            ))}
         </div>
     </Layout>
     </>

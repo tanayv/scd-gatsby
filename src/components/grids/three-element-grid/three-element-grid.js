@@ -6,7 +6,7 @@ class ThreeElementGrid extends React.Component {
     render = () => (
         <div className="three-grid">
             <div className="scd-cw-75">
-                <hr class="main-divider"/>
+                <h1 className="serif">{this.props.title}</h1>
                 {this.props.data.intro}
                 <div className="grid-container">
                     <div className="grid-column narrow">

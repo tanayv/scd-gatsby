@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import Carousel from "../components/carousel/carousel";
 import Hello from "../components/banner/hello/hello";
 import TwoColumnGrid from "../components/grids/two-column/two-column";
-import GridBox from "../components/grids/grid-box/grid-box";
 import GridList from "../components/grids/grid-list/grid-list";
 import LinkDrawer from "../components/link-drawer/link-drawer";
 import { Helmet } from "react-helmet";
@@ -12,11 +11,14 @@ import ThreeElementGrid from "./../components/grids/three-element-grid/three-ele
 
 
 /** Import Content */
-import { carouselData, threeElementGrid1, threeElementGrid2, linkDrawerOptions, stackedSlides } from "../content/index";
+import { carouselData, threeElementGrid1, linkDrawerOptions, stackedSlides } from "../content/index";
 
-const leftColumn = <><p className="serif">We are the Siebel Center for Design—SCD for short. 
-  We believe in using Human-Centered Design (HCD) as an approach to… </p><p className="serif"> 
-  We want to show you how design thinking is a process that can be applied to all disciplines. Have a look around and see what’s happening!</p></>;
+const leftColumn = 
+  <>
+    <p className="serif">We are the Siebel Center for Design– SCD for short. We believe in using Design Thinking as an approach to promote Human-Centered Design (HCD) and mandated quick iterations. We also aim to foster multidisciplinary collaborations across campus. Learn more about who we are <a href="/about">here!</a></p>
+    <p className="serif"> 
+    We want to show you that design is EVERYWHERE– not just in products or art. Design thinking and Human-Centered Design allow you, the designer, to better understand who it is you are designing for, regardless of what it is you may be designing.</p>
+  </>;
 
 
 const IndexPage = () => (
@@ -30,13 +32,8 @@ const IndexPage = () => (
     <Hello/>
     <TwoColumnGrid title="We're glad you're here" left={leftColumn} right={<LinkDrawer options={linkDrawerOptions}/>}></TwoColumnGrid>
     <ColorBanner text="We have lots of cool stuff happening, so have a look around and see what’s up!" theme="teal"/>
-    <h2 className="serif">Cool stuff we've done!</h2>
-    <ThreeElementGrid data={threeElementGrid1}/>
-    
-    <h2 className="serif">Ongoing Happenings!</h2>
-    <GridList theme={stackedSlides.theme} data={stackedSlides.slides}/>
-    <h2 className="serif">Cool stuff coming up...</h2>
-    <ThreeElementGrid data={threeElementGrid2}/>
+    <ThreeElementGrid title={`Cool stuff we've done!`} data={threeElementGrid1}/>
+    <GridList title={`Ongoing Happenings!`} theme={stackedSlides.theme} data={stackedSlides.slides}/>
   </Layout>
   </>
 )

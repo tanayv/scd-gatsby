@@ -26,7 +26,7 @@ const carouselData = [
 
 const threeElementGrid1 = {
     "theme": "teal", 
-    "intro": <p>We have been hosting a bunch of different programs and events around campus! Check out a few of our favorites below and read about other stuff we’ve done <a href="/stories">here</a>.</p>,
+    "intro": <p className="serif">We have been hosting a bunch of different programs and events around campus! Check out a few of our favorites below and read about other stuff we’ve done <a href="/stories">here</a>.</p>,
     "elements": [
         {
             "image": "index1",
@@ -104,26 +104,26 @@ const threeElementGrid2 = {
 
 
 const linkDrawerOptions = [
-    {"title": "For Students", "content": (
+    {"title": "FOR STUDENTS", "content": (
       <ul>
         <li><h1>Courses</h1> Interested in taking a class about design thinking? Want to know what classes SCD is already working with? Check out our <Link to="courses">course list!</Link></li>
         <li><h1>Workshops & Events</h1> Unable to take one of our courses due to a packed schedule but still want to learn about design thinking and what SCD has to offer? We hear ya– there are plenty of other opportunities for you to get involved with us! Check out all our upcoming events and workshops <Link to="stories">here!</Link></li>
         <li><h1>Internships</h1> Do you LOVE SCD and want to be an important part of our staff? See our internship opportunities <Link to="connect">here!</Link></li>
       </ul>  
       )},
-    {"title": "For Faculty & Staff", "content": (
+    {"title": "FOR FACULTY & STAFF", "content": (
       <ul>
         <li><h1>Pilot a Course with SCD</h1> Are you a professor on campus? Do feel that design thinking would be a great addition to your course? Let us know! We’re looking to work with as many courses as we can. </li>
         <li><h1>Collaborators Wanted</h1> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please contact us!</li>
         <li><h1>Events</h1> Want to get a taste of SCD? Join us at one of our events! All are welcome to attend!</li>
       </ul>  )},
-    {"title": "For External Partners", "content": (
+    {"title": "FOR EXTERNAL PARTNERS", "content": (
       <ul>
         <li><h1>Pilot a Course with SCD</h1> Are you a professor on campus? Do feel that design thinking would be a great addition to your course? Let us know! We’re looking to work with as many courses as we can. </li>
         <li><h1>Collaborators Wanted! </h1> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please contact us!</li>
         <li><h1>Events</h1>Want to get a taste of SCD? Join us at one of our events! All are welcome to attend!</li>
       </ul>  )},
-    {"title": "For Everyone Else!", "content": (
+    {"title": "FOR EVERYONE ELSE!", "content": (
       <ul>
         <li><h1>Available Openings</h1> SCD is expanding, and we are looking to hire the most creative and collaborative individuals we can find! If you have a passion for design thinking and human-centered design, be sure to check out our openings and see if you meet our application qualifications! </li>
         

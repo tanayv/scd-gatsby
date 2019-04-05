@@ -10,6 +10,7 @@ class GridBoxSlide extends React.Component {
                 <ImageBlob name={this.props.image}/>
             </div>
             <div className="text-container">
+                <i>{this.props.italicTitle}</i>
                 <h1>{this.props.textTitle}</h1>
                 <hr/>
                 {this.props.paragraphs}

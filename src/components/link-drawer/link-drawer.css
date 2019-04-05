@@ -1,9 +1,7 @@
 .link-drawer .option {
-    color: #69C8C4;
+    color: #048B90;
     font-size: 1.3rem;
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     cursor: pointer;
     position: relative;
     margin-bottom: 10px;
@@ -35,7 +33,7 @@
    top: 0;
    right: 0;
    font-size: 1rem;
-   color: #69C8C4;
+   color: #048B90;
  }
 
  .option-container {
@@ -45,15 +43,28 @@
 
  .link-drawer ul li {
    font-family: "Georgia", serif;
-   font-size: 1.2rem;
-   line-height: 1.4rem;
+   font-size: 19px;
+   line-height: 30px;
    color: #11294B;
    margin-bottom: 20px;
  }
 
  .link-drawer ul li h1 {
-    font-size: 1.2rem;
-    color: #11294B;
-    margin: 0;
-    font-family: "Georgia", serif;
+   font-size: 19px;
+   line-height: 30px;
+   color: #11294B;
+   margin: 0;
+   font-family: "Georgia", serif;
+ }
+
+ .link-drawer ul li a {
+   color: #69C8C4;
+   border-bottom: 1px solid #69C8C4;
+   text-decoration: none;
+ }
+ 
+ .link-drawer ul li a:hover {
+   color: #048B90;
+   border-bottom: 1px solid  #048B90;
+   text-decoration: none;
  }
