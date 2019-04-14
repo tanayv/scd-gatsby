@@ -11,7 +11,7 @@ import Snapshot from "./../components/snapshot/snapshot";
 const leftColumnDefinition = 
     <>
         <p class="serif">
-        Check out our <a href="/">past Newsletters</a>
+        Check out our <a href="https://us19.campaign-archive.com/home/?u=fcccbe1307680e3038edbfb62&id=b41078f80a">past newsletters</a>
         </p>
         <p class="serif">
         Wanna chat? Shoot us an email at <a href="mailto: designcenter@illinois.edu">designcenter@illinois.edu</a>
@@ -27,13 +27,13 @@ const leftColumnDefinition =
 const rightColumnDefinition = 
     <>
         <p class="serif">
-        We always have events and activities happening, so sign up for our <a href="/">Newsletter</a> and follow us on social media to stay up-to-date on all things SCD!
+        We always have events and activities happening, so sign up for our <a href="https://illinois.us19.list-manage.com/subscribe?u=fcccbe1307680e3038edbfb62&id=b41078f80a">Newsletter</a> and follow us on social media to stay up-to-date on all things SCD!
         </p>
         <p class="serif">
         Are you a professor? Interested in integrating design thinking into your courses? Send us an email <a href="mailto: designcenter@illinois.edu">here</a>!
         </p>
         <p class="serif">
-        Check out our <a href="/jobs">employment opportunities</a> in the Jobs page or read our FAQ <a href="">here</a>!
+        Check out our <a href="/jobs">employment opportunities</a> in the Jobs page or read our FAQ <a href="/jobs">here</a>!
         </p>
     </>;
 

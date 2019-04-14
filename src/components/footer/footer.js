@@ -5,7 +5,7 @@ import "./footer.css";
 
 const Footer = () => (
     <footer>
-        <div className="scd-cw-90">
+        <div className="scd-cw-75">
             <div className="row">
                 <div className="cell wide">
                     <h1>Siebel Center for Design</h1>

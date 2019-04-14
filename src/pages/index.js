@@ -13,7 +13,7 @@ import ThreeElementGrid from "./../components/grids/three-element-grid/three-ele
 /** Import Content */
 import { carouselData, threeElementGrid1, linkDrawerOptions, stackedSlides } from "../content/index";
 
-const leftColumn = 
+const rightColumn = 
   <>
     <p className="serif">We are the Siebel Center for Design– SCD for short. We believe in using Design Thinking as an approach to promote Human-Centered Design (HCD) and mandated quick iterations. We also aim to foster multidisciplinary collaborations across campus. Learn more about who we are <a href="/about">here!</a></p>
     <p className="serif"> 
@@ -30,7 +30,7 @@ const IndexPage = () => (
   <Layout>
     <Carousel data={carouselData}/>
     <Hello/>
-    <TwoColumnGrid title="We're glad you're here" left={leftColumn} right={<LinkDrawer options={linkDrawerOptions}/>}></TwoColumnGrid>
+    <TwoColumnGrid title="We're glad you're here" left={<LinkDrawer options={linkDrawerOptions}/>} right={rightColumn}></TwoColumnGrid>
     <ColorBanner text="We have lots of cool stuff happening, so have a look around and see what’s up!" theme="teal"/>
     <ThreeElementGrid title={`Cool stuff we've done!`} data={threeElementGrid1}/>
     <GridList title={`Ongoing Happenings!`} theme={stackedSlides.theme} data={stackedSlides.slides}/>

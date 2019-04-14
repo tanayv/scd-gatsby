@@ -6,7 +6,6 @@ import GridList from "../components/grids/grid-list/grid-list";
 
 import { gridListSlides } from "./../content/courses";
 
-
 import TextSplit from "./../components/grids/text-split";
 
 const CoursesPage = () => (

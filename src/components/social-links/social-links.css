@@ -5,6 +5,7 @@
     vertical-align: top;
     display: inline-flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .social-link-row a {

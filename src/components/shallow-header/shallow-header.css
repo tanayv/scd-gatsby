@@ -1,58 +1,66 @@
-/*
-header {
+header.shallow {
     background-color: #fff;
     color: #11294B;
     font-size: 0;
-    height: 100px;
+    height: 120px;
     width: 100%;
     position: fixed;
     z-index: 20;
-    box-shadow: 0 0 3px 2px #44444480;
-    align-items: center;
+    box-shadow: 0 0 3px 2px #4444441f;
+    text-align: center;
 }
 
 header.flex {
     display: flex;
 }
 
-header a {
+header.shallow a {
     text-decoration: none;
     color: inherit;
 }
 
-
-header a.floating-i {
+header.shallow a.floating-i {
     height: 60px;
     width: 60px;
     position: absolute;
-    top: 120px;
+    top: 140px;
+    left: 0;
 }
 
-header .floating-block-i {
+header.shallow .floating-block-i {
     height: 100%;
     width: 100%;
     background-color: #11294B;
 }
 
-header .floating-block-i .image-blob {
+header.shallow .floating-block-i .image-blob {
     background-image: contain;
     background-repeat: no-repeat;
     background-size: 40%;
 }
 
-.titlespace {
-    width: 70%;
+header.shallow .titlespace {
+    width: 100%;
     height: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: left;
     text-align: center;
-    vertical-align: top;
+    display: block;
+    padding-top: 15px;
 }
 
-.titlespace h1 {
+header.shallow .titlespace h1 {
     font-size: 2.8rem;
     margin: 0;
+    display: block;
+}
+
+header.shallow .titlespace .center-links {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+header.shallow .titlespace .center-links .option {
+    display: inline-block;
+    margin: 15px 20px;
 }
 
 .menu-icon-space {
@@ -85,4 +93,4 @@ header .floating-block-i .image-blob {
     height: 100%;
     display: inline-flex;
     align-items: center;
-}*/
+}

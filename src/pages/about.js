@@ -2,9 +2,6 @@ import React from "react"
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import ImageBanner from "./../components/banner/image-banner/image-banner";
-
-import TwoColumnGrid from "../components/grids/two-column/two-column";
-
 import Snapshot from "./../components/snapshot/snapshot";
 import { SiebelSnapshotData, BuildingSnapshotData, faqConfiguration, peopleGridData } from "./../content/about";
 
