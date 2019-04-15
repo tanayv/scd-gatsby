@@ -53,8 +53,8 @@ export default LinkDrawer
 class Chevron extends React.Component {
     render = () => {
         if (this.props.status === "active")
-            return (<div className="chevron"><i class="fas fa-chevron-up"></i></div>)
+            return (<div className="chevron"><i className="fas fa-chevron-up"></i></div>)
         else
-            return (<div className="chevron"><i class="fas fa-chevron-down"></i></div>)
+            return (<div className="chevron"><i className="fas fa-chevron-down"></i></div>)
     }
 }

@@ -3,7 +3,7 @@ import "./color.css";
 
 class ColorBanner extends React.Component {
     render = () => (
-        <div class={"color-banner " + this.props.theme}>
+        <div className={"color-banner " + this.props.theme}>
         {this.props.text}
         </div>
     )

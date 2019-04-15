@@ -38,6 +38,10 @@
     border-bottom: 1px solid #69C8C4;
 }
 
+.grid-box-theme-teal .grid-box-default-slide hr {
+    background: #69C8C4;
+}
+
 /** Purple */
 .grid-box-theme-purple .navigation {
     border-bottom: 2px solid #A5228E;
@@ -144,3 +148,5 @@
     width: 25%;
     margin: 20px 0 20px 0;
 }
+
+

@@ -23,7 +23,7 @@ const ImageBlob = (props) => (
             }
           }
         }
-        index1: file(relativePath: { eq: "index/three-element-grid-1.png" }) {
+        index1: file(relativePath: { eq: "index/three-element-grid-1.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid

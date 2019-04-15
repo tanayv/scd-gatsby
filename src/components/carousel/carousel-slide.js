@@ -44,6 +44,13 @@ const CarouselSlide = (props) => (
             }
           }
         }
+        courses_carousel: file(relativePath: { eq: "index/banner_courses.jpg" }) {
+          childImageSharp {
+            fluid(maxHeight: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
     render={data =>

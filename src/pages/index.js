@@ -33,7 +33,7 @@ const IndexPage = () => (
     <TwoColumnGrid title="We're glad you're here" left={<LinkDrawer options={linkDrawerOptions}/>} right={rightColumn}></TwoColumnGrid>
     <ColorBanner text="We have lots of cool stuff happening, so have a look around and see what’s up!" theme="teal"/>
     <ThreeElementGrid title={`Cool stuff we've done!`} data={threeElementGrid1}/>
-    <GridList title={`Ongoing Happenings!`} theme={stackedSlides.theme} data={stackedSlides.slides}/>
+    <GridList title={`Ongoing Happenings!`} intro={stackedSlides.intro} theme={stackedSlides.theme} data={stackedSlides.slides}/>
   </Layout>
   </>
 )
