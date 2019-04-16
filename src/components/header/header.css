@@ -1,18 +1,16 @@
-/*
-header {
+
+header.flex {
     background-color: #fff;
     color: #11294B;
     font-size: 0;
     height: 100px;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 20;
     box-shadow: 0 0 3px 2px #44444480;
     align-items: center;
-}
-
-header.flex {
-    display: flex;
+    display: none;
 }
 
 header a {
@@ -85,4 +83,11 @@ header .floating-block-i .image-blob {
     height: 100%;
     display: inline-flex;
     align-items: center;
-}*/
+}
+
+  /** General Mobile Display */
+@media (max-width: 800px) {
+    header.flex {
+      display: flex;
+    }
+  }

@@ -29,13 +29,13 @@ class Header extends React.Component {
   }
 
   render = () => (
-    <main>
+    <>
       {this.spawnMenu()}
       <header className="flex">
         <div className="scd-cw-90 scd-fill-height">
           <div className="titlespace">
           <Link to="/">
-              <h1>Siebel Center for Design</h1>
+              <h1>SCD</h1>
             </Link>
           </div>
           <div className="menu-icon-space">
@@ -48,7 +48,7 @@ class Header extends React.Component {
           </div>
         </a>  
       </header>
-    </main>
+    </>
   )
 
 }

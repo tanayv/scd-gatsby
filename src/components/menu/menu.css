@@ -10,7 +10,7 @@
 }
 
 .menu {
-    width: 30%;
+    width: 100%;
     position: absolute;
     right: 0;
     top: 0;
@@ -20,13 +20,13 @@
 }
 
 .menu .menu-content-container {
-    width: 60%;
+    width: 80%;
     display: inline-block;
     vertical-align: top;
 }
 
 .menu .menu-close-button {
-    width: 40%;
+    width: 20%;
     display: inline-block;
     vertical-align: top;
     text-align: right;

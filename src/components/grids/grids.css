@@ -189,6 +189,7 @@
     display: inline-block;
 }
 
+/* Mobile Display */
 
 @media (max-width: 800px) {
     
@@ -199,7 +200,18 @@
     .tiberian-grid .grid-element .element-contents h1 {
         font-size: 1.5rem;
     }
+
+    .text-split .left-column {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .text-split .right-column {
+        width: 100% !important;
+    }
 }
+
+
 
 
 .text-split {

@@ -12,3 +12,9 @@
     background-color: #69C8C4;
     color: #fff;
 }
+
+@media (max-width: 800px) {
+    .color-banner {
+        font-size: 2rem;
+    }
+}

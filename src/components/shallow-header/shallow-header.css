@@ -99,3 +99,12 @@ header.shallow .titlespace .center-links .option {
     height: 120px;
     width: 100%;
 }
+
+/** Hide for mobile **/
+
+/** General Mobile Display */
+@media (max-width: 800px) {
+    header.shallow {
+      display: none;
+    }
+  }

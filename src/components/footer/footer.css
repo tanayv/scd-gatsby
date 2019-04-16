@@ -57,3 +57,22 @@ footer .row .cell.anchor-right-bottom .social-link-row {
     height: initial;
     margin-top: 0;
 }
+
+  /** General Mobile Display */
+@media (max-width: 800px) {
+    footer .row .cell {
+        width: calc(100% / 2);
+    }
+
+    footer .row .cell.wide {
+        width: calc(100%);
+    }
+
+    footer .row .cell.anchor-right-bottom {
+        height: 80px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
