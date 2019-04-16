@@ -5,10 +5,12 @@
     cursor: pointer;
     position: relative;
     margin-bottom: 10px;
+    transition: all .2s ease-in-out;
  }
 
  .link-drawer {
-    height: 500px;
+    padding-bottom: 30px;
+    transition: all .2s ease-in-out;
  }
  
  .link-drawer .option:hover {

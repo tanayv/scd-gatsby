@@ -212,7 +212,84 @@ const ImageBlob = (props) => (
             }
           }
         }
-        about1: file(relativePath: { eq: "about/sticker1.jpg" }) {
+        sticker1: file(relativePath: { eq: "about/sticker1.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker2: file(relativePath: { eq: "about/sticker2.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker3: file(relativePath: { eq: "about/sticker3.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker4: file(relativePath: { eq: "about/sticker4.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker5: file(relativePath: { eq: "about/sticker5.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker6: file(relativePath: { eq: "about/sticker6.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker7: file(relativePath: { eq: "about/sticker7.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker8: file(relativePath: { eq: "about/sticker8.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker9: file(relativePath: { eq: "about/sticker9.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker10: file(relativePath: { eq: "about/sticker10.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker11: file(relativePath: { eq: "about/sticker11.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker12: file(relativePath: { eq: "about/sticker12.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -234,6 +311,27 @@ const ImageBlob = (props) => (
           }
         }
         about15: file(relativePath: { eq: "about/building2.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        about16: file(relativePath: { eq: "about/building3.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        about17: file(relativePath: { eq: "about/building4.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        about18: file(relativePath: { eq: "about/building5.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid

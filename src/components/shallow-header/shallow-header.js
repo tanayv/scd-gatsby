@@ -38,6 +38,7 @@ class ShallowHeader extends React.Component {
               </div>
             </a>  
           </header>
+          <div className="spacer"></div>
         </main>
     )
 

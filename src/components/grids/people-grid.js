@@ -6,7 +6,7 @@ class PeopleGrid extends React.Component {
     render = () => {
         return (
             <>
-            <h1 className="serif">Who is SCD?</h1>
+            <h1 className="serif about">Who is SCD?</h1>
             <div className="people-grid">
                 
                 {this.props.data.map((person, key) => {

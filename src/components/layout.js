@@ -7,10 +7,8 @@ import "./layout.css"
 const Layout = ({ children }) => (
     <>
       <ShallowHeader siteTitle="Siebel Center for Design"/>
-      <div className="scd-ptop-100">
         <main>{children}</main>
       <Footer/>
-      </div>
     </>
 )
 

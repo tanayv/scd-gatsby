@@ -94,3 +94,8 @@ header.shallow .titlespace .center-links .option {
     display: inline-flex;
     align-items: center;
 }
+
+.spacer {
+    height: 120px;
+    width: 100%;
+}

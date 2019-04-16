@@ -33,3 +33,12 @@
 .snapshot .right-column hr {
     width: 30%;
 }
+
+.snapshot h1.serif {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.snapshot h1 {
+    color: #11294B;
+}

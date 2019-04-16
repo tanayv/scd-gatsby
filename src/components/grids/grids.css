@@ -211,12 +211,17 @@
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    margin-right: 30px;
 }
 
 .text-split .right-column {
-    width: 60%;
+    width: calc(60% - 30px);
     display: inline-block;
     vertical-align: top;
+}
+
+h1.serif.about {
+    margin-bottom: 40px;
 }
 
 
@@ -230,14 +235,13 @@
 }
 
 .people-grid .card {
-    width: calc(100%/3 - 10px);
-    height: 250px;
+    width: 300px;
+    margin-bottom: 50px;
 }
 
 .people-grid .card .image-holder {
-    width: 100%;
-    min-height: 5px;
-    padding-top: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 .people-grid .card span.person-name {
@@ -245,10 +249,14 @@
     font-size: 1.7rem;
     font-weight: 600;
     color: #11294B;
+    margin-top: 5px;
 }
 
 .people-grid .card span.person-role {
     display: block;
     font-family: 'Georgia', serif;
     color: #11294B;
+    letter-spacing: 0;
+    font-size: 1.1rem;
+    margin-top: 5px;
 }

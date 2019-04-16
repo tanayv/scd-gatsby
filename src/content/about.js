@@ -50,7 +50,7 @@ const SiebelSnapshotData = {
 
 const BuildingSnapshotData = {
   heading: "Where is SCD?",
-  title: "Building coming soon!",
+  title: "Our Amazing Building",
   body: <>
           <p className="serif">
           Nestled between the Business Instructional Facility, Ikenberry Commons, and the Art + Design building, the Siebel Center for Design building will literally be at a disciplinary crossroads on campus. 
@@ -59,89 +59,100 @@ const BuildingSnapshotData = {
           This 60,000 square foot facility will provide program space and serve as the Design Thinking headquarters that brings together individuals from all disciplines, cultures, and realities. The building is estimated to be completed in Spring 2020.
           </p>
           <p className="serif">
-          Check out the <a href="/">Live Camera</a> on the construction site.
+          Check out the <a href="https://app.oxblue.com/open/clayco/univofillinois">Live Camera</a> on the construction site.
           </p>
           <p className="serif">
           <a href="/">View & Download</a> Building Renderings and Blueprints.
           </p>
         </>,
   mainImage: "about14",
-  images: ["about14", "about15"]
+  images: ["about14", "about15", "about16", "about17", "about18"]
 }
 
 const faqConfiguration = [
   {"title": "What does SCD stand for?", "content": (
-    <ul>
-      <li><h1>Courses</h1> Interested in taking a class about design thinking? Want to know what classes SCD is already working with? Check out our <Link to="courses">course list!</Link></li>
-      <li><h1>Workshops & Events</h1> Unable to take one of our courses due to a packed schedule but still want to learn about design thinking and what SCD has to offer? We hear ya– there are plenty of other opportunities for you to get involved with us! Check out all our upcoming events and workshops <Link to="stories">here!</Link></li>
-      <li><h1>Internships</h1> Do you LOVE SCD and want to be an important part of our staff? See our internship opportunities <Link to="connect">here!</Link></li>
-    </ul>  
+    <p class="serif">
+    SCD stands for the Siebel Center for Design!
+    </p> 
     )},
   {"title": "Is the Siebel Center for Design in the College of Engineering?", "content": (
-    <ul>
-      <li><h1>Pilot a Course with SCD</h1> Are you a professor on campus? Do feel that design thinking would be a great addition to your course? Let us know! We’re looking to work with as many courses as we can. </li>
-      <li><h1>Collaborators Wanted</h1> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please contact us!</li>
-      <li><h1>Events</h1> Want to get a taste of SCD? Join us at one of our events! All are welcome to attend!</li>
-    </ul>  )},
+    <p class="serif">
+      Nope! We love our Engineering collaborators, but we are not affiliated with any specific college on campus. This allows us to be completely multidisciplinary and work with everyone!
+    </p> 
+    )},
   {"title": "Is the Siebel Center for Design the same as the Siebel Center for Computer Science?", "content": (
-    <ul>
-      <li><h1>Pilot a Course with SCD</h1> Are you a professor on campus? Do feel that design thinking would be a great addition to your course? Let us know! We’re looking to work with as many courses as we can. </li>
-      <li><h1>Collaborators Wanted! </h1> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please contact us!</li>
-      <li><h1>Events</h1>Want to get a taste of SCD? Join us at one of our events! All are welcome to attend!</li>
-    </ul>  )},
+    <p class="serif">
+      Nope! Same name, different groups. The Siebel Center for Computer Science is a building located on the North (Engineering) Quad. The Siebel Center for Design building is being built in the space between Fourth and Sixth street and Huff Hall and the Art + Design Building. The Siebel Center for Computer Science IS affiliated with the College of Engineering while SCD is not. :)
+    </p> 
+    )},
   {"title": "Who is SCD for? Just Art, Business, or Engineering students?", "content": (
-    <ul>
-      <li><h1>Available Openings</h1> SCD is expanding, and we are looking to hire the most creative and collaborative individuals we can find! If you have a passion for design thinking and human-centered design, be sure to check out our openings and see if you meet our application qualifications! </li>
-      
-    </ul>  )}
+    <p class="serif">
+      SCD is for EVERYONE! Regardless of your major or interests, we would love to work with everyone that wants to work with us!
+    </p> 
+    )},
 ]
 
 const peopleGridData = [
   {
-    image: "about1", 
+    image: "sticker1", 
+    name: "Rachel Switzky",
+    role: "Director"
+  },
+  {
+    image: "sticker2", 
     name: "Ava Bilimoria",
-    role: "design associate"
+    role: "Design Strategist"
   },
   {
-    image: "about1", 
-    name: "Rachel Dietkus",
-    role: "smart gal"
+    image: "sticker3", 
+    name: "Lucas O'Bryan",
+    role: "Design Strategist"
   },
   {
-    image: "about1", 
+    image: "sticker4", 
     name: "Jake Fava",
-    role: "design associate"
+    role: "Design Strategist"
   },
   {
-    image: "about1", 
-    name: "Ava Bilimoria",
-    role: "design associate"
+    image: "sticker5", 
+    name: "Rebecca Sweeney",
+    role: "Marketing Strategist"
   },
   {
-    image: "about1", 
-    name: "Rachel Dietkus",
-    role: "smart gal"
+    image: "sticker6", 
+    name: "Amanda Henderson",
+    role: "Lecturer and Senior Design Strategist"
   },
   {
-    image: "about1", 
-    name: "Jake Fava",
-    role: "design associate"
+    image: "sticker7", 
+    name: "Rachael Dietkus",
+    role: "Senior Design Strategist, Social Impact"
   },
   {
-    image: "about1", 
-    name: "Ava Bilimoria",
-    role: "design associate"
+    image: "sticker8", 
+    name: "Dr. William Patterson",
+    role: "Senior Design Strategist, Social Impact"
   },
   {
-    image: "about1", 
-    name: "Rachel Dietkus",
-    role: "smart gal"
+    image: "sticker9", 
+    name: "Alex Pagano",
+    role: "Senior Design Strategist"
   },
   {
-    image: "about1", 
-    name: "Jake Fava",
-    role: "design associate"
-  }
+    image: "sticker10", 
+    name: "Megan McCausland",
+    role: "Graphic Designer"
+  },
+  {
+    image: "sticker11", 
+    name: "Tanay Vardhan",
+    role: "Web Developer"
+  },
+  {
+    image: "sticker12", 
+    name: "Robin Woodall",
+    role: "Office Administrator"
+  },
 ]
 
 

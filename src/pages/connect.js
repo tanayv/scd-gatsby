@@ -33,7 +33,7 @@ const rightColumnDefinition =
         Are you a professor? Interested in integrating design thinking into your courses? Send us an email <a href="mailto: designcenter@illinois.edu">here</a>!
         </p>
         <p class="serif">
-        Check out our <a href="/jobs">employment opportunities</a> in the Jobs page or read our FAQ <a href="/jobs">here</a>!
+        Check out our <a href="/jobs">employment opportunities</a> in the Jobs page or read our FAQ <a href="/about#faq">here</a>!
         </p>
     </>;
 
