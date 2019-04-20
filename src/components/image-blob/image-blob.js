@@ -345,6 +345,13 @@ const ImageBlob = (props) => (
             }
           }
         }
+        courses8: file(relativePath: { eq: "courses/courses8.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
 
 
       }

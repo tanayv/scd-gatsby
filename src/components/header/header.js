@@ -31,7 +31,7 @@ class Header extends React.Component {
   render = () => (
     <>
       {this.spawnMenu()}
-      <header className="flex">
+      <header className="mobile">
         <div className="scd-cw-90 scd-fill-height">
           <div className="titlespace">
           <Link to="/">
@@ -48,6 +48,7 @@ class Header extends React.Component {
           </div>
         </a>  
       </header>
+      <div className="spacer mobile"></div>
     </>
   )
 

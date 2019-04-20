@@ -39,7 +39,7 @@
     color: #fff;
     width: 100%;
     text-align: right;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 
@@ -60,3 +60,18 @@
 .overlay .pagination .dot.active {
     background: #ececec;
 }
+
+  /** General Mobile Display */
+  @media (max-width: 800px) {
+    .carousel {
+        padding-top: 70%; /* Aspect Ratio of 32:13 */
+    }
+
+    .overlay h1 {
+        font-size: 1.3rem;
+    }
+
+    .overlay .text-container  .tile-display {
+        width: 100%;
+    }
+  }

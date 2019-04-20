@@ -6,7 +6,7 @@ import ImageBlob from "./../image-blob/image-blob";
 class ShallowHeader extends React.Component {
 
     render = () => (
-        <main>
+        <>
           <header className="shallow">
             <div className="scd-cw-90 scd-fill-height">
               <div className="titlespace">
@@ -38,8 +38,8 @@ class ShallowHeader extends React.Component {
               </div>
             </a>  
           </header>
-          <div className="spacer"></div>
-        </main>
+          <div className="spacer shallow"></div>
+        </>
     )
 
 }

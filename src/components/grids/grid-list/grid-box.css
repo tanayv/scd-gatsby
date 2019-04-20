@@ -151,3 +151,32 @@
 }
 
 
+@media (max-width: 800px) {
+
+    .grid-box-default-slide .image-tile {
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
+
+    .grid-box-default-slide .image-tile.resources {
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
+
+    .grid-box-default-slide .text-container {
+        width: 100%;
+        margin: 20px 0 0 0;
+        display: block;
+        padding: 0;
+    }
+
+    .grid-box-default-slide h1 {
+        color: #11294B;
+        font-size: 1.4rem;
+    }
+
+    
+    
+}

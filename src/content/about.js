@@ -61,9 +61,6 @@ const BuildingSnapshotData = {
           <p className="serif">
           Check out the <a href="https://app.oxblue.com/open/clayco/univofillinois">Live Camera</a> on the construction site.
           </p>
-          <p className="serif">
-          <a href="/">View & Download</a> Building Renderings and Blueprints.
-          </p>
         </>,
   mainImage: "about14",
   images: ["about14", "about15", "about16", "about17", "about18"]

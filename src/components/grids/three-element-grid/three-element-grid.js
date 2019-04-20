@@ -14,7 +14,7 @@ class ThreeElementGrid extends React.Component {
                             <ImageBlob name={this.props.data.elements[0].image}></ImageBlob>
                             <div className="content">
                                 <h1>{this.props.data.elements[0].title}</h1>
-                                <hr/>
+                                <hr />
                                 <h2>{this.props.data.elements[0].timeline}</h2>
                             </div>
                         </div>
@@ -24,7 +24,7 @@ class ThreeElementGrid extends React.Component {
                             <ImageBlob name={this.props.data.elements[1].image}></ImageBlob>
                             <div className="content">
                                 <h1>{this.props.data.elements[1].title}</h1>
-                                <hr/>
+                                <hr />
                                 <h2>{this.props.data.elements[1].timeline}</h2>
                             </div>
                         </div>
@@ -32,13 +32,11 @@ class ThreeElementGrid extends React.Component {
                             <ImageBlob name={this.props.data.elements[2].image}></ImageBlob>
                             <div className="content">
                                 <h1>{this.props.data.elements[2].title}</h1>
-                                <hr/>
+                                <hr />
                                 <h2>{this.props.data.elements[2].timeline}</h2>
                             </div>
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>

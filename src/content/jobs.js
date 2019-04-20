@@ -31,8 +31,7 @@ const jobData = [
         "titlePosition": "Associate Director of",
         "titleOps": "BUSINESS DEVELOPMENT AND ADVANCEMENT",
         "image": "jobs1",
-        "description": `
-        Reporting to the Director of the Siebel Center for Design, this position strategizes and oversees the programs and projects of the Siebel Center for Design.`,
+        "description": ``,
         "link": "",
         "comingSoon": true
     },

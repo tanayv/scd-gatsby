@@ -19,20 +19,20 @@ footer a {
 
 footer .row h1 {
     margin: 10px 0 10px 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: 0.2px;
 }
 
 footer .row h2 {
     margin: 0 0 10px 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
 footer .row p {
     margin: 10px 0 10px 0;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 footer .row .cell {

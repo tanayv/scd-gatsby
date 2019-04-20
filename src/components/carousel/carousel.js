@@ -8,7 +8,7 @@ class Carousel extends React.Component {
         super(props);
         this.state = {
             timer: 5,
-            activeSlide: 1
+            activeSlide: 2
         };
         setInterval(() => {
             if (this.state.activeSlide < 2)

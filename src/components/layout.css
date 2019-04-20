@@ -639,8 +639,8 @@ h2.serif {
 h3.serif {
   font-family: "Georgia", serif;
   font-weight: 400;
-  font-size: 1.3rem;
-  line-height: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
   text-align: left;
   margin-bottom: 60px;
   letter-spacing: 0;
@@ -667,8 +667,8 @@ h3.serif {
 p.serif {
   font-family: "Georgia", serif;
   font-weight: 400;
-  font-size: 1.1rem;
-  line-height: 1.7rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-align: left;
   margin-bottom: 20px;
   letter-spacing: 0;
@@ -681,9 +681,8 @@ p.serif a {
 }
 
 p.serif a:hover {
-  color: #048B90;
-  border-bottom: 1px solid  #048B90;
-  text-decoration: none;
+  color: #048B90 !important;
+  border-bottom: 1px solid  #048B90  !important;
 }
 
 hr.teal-separator {
@@ -705,6 +704,13 @@ h2.job-listing {
   letter-spacing: 0.8px;
 }
 
+.standalone-image {
+  height: 400px;
+  width: 400px;
+  margin: 50px auto;
+
+}
+
 /** Widescreen Display Layout Fixes */
 @media (min-width: 1766px) {
   .scd-cw-75 {
@@ -716,6 +722,6 @@ h2.job-listing {
 /** General Mobile Display */
 @media (max-width: 800px) {
   .scd-cw-75 {
-    width: 95%;
+    width: 90%;
   }
 }

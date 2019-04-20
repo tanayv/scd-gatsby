@@ -107,4 +107,8 @@ header.shallow .titlespace .center-links .option {
     header.shallow {
       display: none;
     }
+
+    .spacer.shallow {
+        display: none;
+    }
   }

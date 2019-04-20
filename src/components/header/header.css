@@ -1,9 +1,9 @@
 
-header.flex {
+header.mobile {
     background-color: #fff;
     color: #11294B;
     font-size: 0;
-    height: 100px;
+    height: 90px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -13,32 +13,32 @@ header.flex {
     display: none;
 }
 
-header a {
+header.mobile a {
     text-decoration: none;
     color: inherit;
 }
 
 
-header a.floating-i {
+header.mobile a.floating-i {
     height: 60px;
     width: 60px;
     position: absolute;
     top: 120px;
 }
 
-header .floating-block-i {
+header.mobile .floating-block-i {
     height: 100%;
     width: 100%;
     background-color: #11294B;
 }
 
-header .floating-block-i .image-blob {
+header.mobile .floating-block-i .image-blob {
     background-image: contain;
     background-repeat: no-repeat;
     background-size: 40%;
 }
 
-.titlespace {
+header.mobile .titlespace {
     width: 70%;
     height: 100%;
     display: inline-flex;
@@ -48,12 +48,12 @@ header .floating-block-i .image-blob {
     vertical-align: top;
 }
 
-.titlespace h1 {
+header.mobile .titlespace h1 {
     font-size: 2.8rem;
     margin: 0;
 }
 
-.menu-icon-space {
+header.mobile .menu-icon-space {
     font-size: initial;
     width: 30%;
     height: 100%;
@@ -65,7 +65,7 @@ header .floating-block-i .image-blob {
     text-transform: uppercase;
 }
 
-.menu-icon-space .long-menu-icon {
+header.mobile .menu-icon-space .long-menu-icon {
     margin-left: 15px;
     width: 40px;
     height: 100%;
@@ -78,16 +78,27 @@ header .floating-block-i .image-blob {
 }
 
 
-.menu-icon-space .soft-button {
+header.mobile .menu-icon-space .soft-button {
     cursor: pointer;
     height: 100%;
     display: inline-flex;
     align-items: center;
 }
 
+.spacer.mobile {
+    height: 0;
+    width: 100%;
+    display: none;
+}
+
   /** General Mobile Display */
 @media (max-width: 800px) {
-    header.flex {
+    header.mobile {
       display: flex;
+    }
+
+    .spacer.mobile {
+        height: 90px;
+        display: block;
     }
   }

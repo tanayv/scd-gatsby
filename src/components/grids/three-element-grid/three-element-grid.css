@@ -5,7 +5,6 @@
     margin: 80px 0 60px 0;
 }
 
-
 .grid-container {
     position: relative;
     width: 100%;
@@ -89,5 +88,29 @@
 .grid-container .grid-column .grid-element .content:hover {
     opacity: 1;
     font-size: initial;
+}
+
+
+/** General Mobile Display */
+@media (max-width: 800px) {
+
+    .grid-container .grid-column {
+        width: 100% !important;
+        display: block;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .grid-container .grid-column.narrow .grid-element {
+        width: 100% !important;
+        display: block;
+        height: 250px;
+    }
+
+    .grid-container .grid-column.wide .grid-element {
+        width: 100% !important;
+        display: block;
+        height: 250px;
+    }
     
 }

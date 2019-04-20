@@ -1,11 +1,11 @@
 .color-banner {
     width: 100%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     min-height: 100px;
     padding: 60px 20%;
     text-align: center;
     font-weight: 600;
-
+    letter-spacing: -2px;
 }
 
 .color-banner.teal {

@@ -8,13 +8,13 @@ const carouselData = [
     "link": ""
   },
   {
-    "image": "welcome_carousel",
-    "title": "Welcome to the Siebel Center for Design",
+    "image": "newsletter_carousel",
+    "title": "Join our Newsletter and get the latest on SCD activities!",
     "link": ""
   },
   {
-    "image": "newsletter_carousel",
-    "title": "Join our Newsletter and get the latest on SCD activities!",
+    "image": "welcome_carousel",
+    "title": "Welcome to the Siebel Center for Design",
     "link": ""
   },
   {
@@ -117,16 +117,16 @@ const linkDrawerOptions = [
     {"title": "FOR FACULTY & STAFF", "content": (
       <ul>
         <li><h1>Pilot a Course with SCD</h1> Are you a professor on campus? Do feel that design thinking would be a great addition to your course? <a href="mailto:designcenter@illinois.edu">Let us know!</a> We’re looking to work with as many courses as we can. </li>
-        <li><h1>Collaborators Wanted</h1> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please contact us!</li>
+        <li><h1>Collaborators Wanted</h1> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please <Link to="connect">contact us!</Link></li>
         <li><h1>Events</h1>Want to get a taste of SCD? Join us at one of our events! Check out our <a href="https://www.facebook.com/pg/SCDillinois/events/">Facebook page</a> to see what we have coming up.</li>
       </ul>  )},
     {"title": "FOR EXTERNAL PARTNERS", "content": (
       <ul>
-        <li>If you are not affiliated with the university but want to interact with SCD, send us an <a href="mailto:designcenter@illinois.edu">email</a> detailing how you would like to be involved. If you would like to connect with Director Rachel Switzky, please <a href="mailto:rwoodall@illinois.edu">email</a> her scheduler to set up a time.</li>
+        <li>If you are not affiliated with the university but want to interact with SCD, send us an <a href="mailto:designcenter@illinois.edu">email</a> detailing how you would like to be involved. If you would like to connect with Director Rachel Switzky, please <a href="mailto:rwoodall@illinois.edu">email</a> her assistant to set up a time.</li>
       </ul>  )},
     {"title": "FOR EVERYONE ELSE!", "content": (
       <ul>
-        <li><h1>Available Openings</h1> SCD is expanding, and we are looking to hire the most creative and collaborative individuals we can find! If you have a passion for design thinking and human-centered design, be sure to check out our openings and see if you meet our application qualifications! </li>
+        <li><h1>Available Openings</h1> SCD is expanding, and we are looking to hire the most creative and collaborative individuals we can find! If you have a passion for design thinking and human-centered design, be sure to <Link to="jobs">check out our openings</Link> and see if you meet our application qualifications! </li>
         
       </ul>  )}
   ]

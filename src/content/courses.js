@@ -5,10 +5,7 @@ const gridListSlides = [
       "italicTitle": "Business Administration",
       "tabTitle": "BADM 357",
       "textTitle": "BADM 357: Digital Making Seminar",
-      "paragraphs": <><p className="serif">Digital Making is the second course in a new series of courses surrounding Accessible Product Design. Digital Making is in partnership with SCD and Disability Resources and Educational Services (DRES), and specifically covers rapid prototyping and building 3D printed models. 
-      </p>
-      <p className="serif">
-      Students work on interdisciplinary teams and use the design thinking process to develop potential solutions to accessibility issues. Near the end of the Spring 2019 semester, students in this course will participate in a Make-a-thon focused on accessibility. Students will create products inspired by those that are differently abled and the challenges that they face.
+      "paragraphs": <><p className="serif">Digital Making is the second course in a sequence of courses SCD is hosting surrounding Accessible Product Design. In partnership with Disability Resources and Educational Services (DRES), students use the design thinking process to develop potential solutions to accessibility issues, focusing on design refinement through rapid prototyping and building 3D printed models. Read about the overall vision for the course series <a href="https://www.linkedin.com/pulse/think-design-impact-vishal-sachdev/" target="_blank">here</a> and learn more about the Digital Making course <a href="https://digitalmaking.web.illinois.edu/spring2019/" target="_blank">here</a>. 
       </p></>,
       "links": [],
       "image": "courses1"
@@ -17,10 +14,7 @@ const gridListSlides = [
       "italicTitle": "Education",
       "tabTitle": "EDUC 201",
       "textTitle": "EDUC 201 : Identity and Difference in Education",
-      "paragraphs": <><p className="serif">EDUC 201 is a course required for all Education majors that also fulfills an important U.S. Minority Cultures general education requirement. This course is for students who are interested in reflecting on their experiences as learners by examining their own socially constructed identities and ways of knowing. 
-      </p>
-      <p className="serif">
-      Throughout the semester, students are expected to complete at least 20 hours of service at a community placement, along with a lecture and discussion. The SCD team created a human-centered design workbook for students to complete and reflect on throughout the semester while they were in their community placements, which they then used the following semester to build their empathy capacity.
+      "paragraphs": <><p className="serif">EDUC 201 is a course required for all Education majors and is for students who are interested in reflecting on their own experiences as learners. Students complete at least 20 hours of service at a non-profit community placement along with a lecture and discussion. The SCD team created a human-centered design workbook for students to complete and reflect on throughout the semester while they were in their community placements, giving them a structured approach around empathy exercises and need-finding for their target audience. 
       </p></>,
       "image": "courses2"
     },
@@ -28,21 +22,14 @@ const gridListSlides = [
       "italicTitle": "Mechanical Engineering", 
       "tabTitle": "ME 170",
       "textTitle": "ME 170: Computer Aided Design",
-      "paragraphs": <><p className="serif">In ME 170, first year mechanical engineering students have their first opportunity to engage in the engineering design process. These students are tasked with developing a novel solution or product to address a problem that they identify. They propose a design and develop a full computer aided design model to represent their ideas. 
-      </p>
-      <p className="serif">
-      Through collaboration with the Siebel Center for Design, the class project has taken a human-centered design approach in which students interview people in their community in order to identify opportunity areas. Their designs take on new value by addressing real and present challenges.
-      </p></>,
+      "paragraphs": <><p className="serif">In ME 170, first year mechanical engineering students have their first opportunity to engage in the engineering design process. These students are tasked with developing a novel solution or product to address a problem that they identify. SCD has built into the class a human-centered design approach in which students interview people in their community to identify opportunity areas. They then propose a design based on these insights and develop a full computer aided design model to represent their ideas.</p></>,
       "image": "courses3"
     },
     {
       "italicTitle": "Sociology",
       "tabTitle": "SOC 162",
       "textTitle": "SOC 162: Introduction to International Health Policy",
-      "paragraphs": <><p className="serif">SOC 162 students explore how health issues are essential components in discussion of globalization, immigration, and migration and the policies surrounding them. The course fulfills two general education requirements and pulls students from all across campus.  
-      </p>
-      <p className="serif">
-      This Spring 2019, SCD piloted a modular integration model, where SCD team members stepped in for a few specific touchpoints throughout the semester, introducing the concept of interviewing, tasking the students with going out and conducting their own, and culminating in an all-class synthesis session.
+      "paragraphs": <><p className="serif">SOC 162 students explore how health issues are essential components in discussion of globalization, immigration, and migration and the policies surrounding them. The professor was interested in highlighting healthcare challenges both home and abroad, and worked with SCD to introduce a design thinking approach to the class, tasking students with conducting user interviews around the local healthcare system, which culminated in an all-class synthesis session.  
       </p></>,
       "image": "courses4"
     },
@@ -50,10 +37,7 @@ const gridListSlides = [
       "italicTitle": "Technology Entrepreneurship",
       "tabTitle": "TE 401",
       "textTitle": "TE 401: Introduction to Design Thinking",
-      "paragraphs": <><p className="serif">One of our TE 401 course sections is focused on introducing the Design Thinking process. Students learn the process through project-based assignments that allow them to build skills in storytelling, synthesis, research methods, brainstorming, concept development, prototyping, and presenting. 
-      </p>
-      <p className="serif">
-      Students in this course immerse themselves in design thinking methods that encourage their creativity and improve their ability to make insights into consumer needs.
+      "paragraphs": <><p className="serif">A key component of the SCD strategy is to help students develop their design thinking skills, so we created a straightforward class to teach the principles of human-centered design. Students learn the process through project-based assignments that allow them to build skills in storytelling, synthesis, research methods, brainstorming, concept development, prototyping, and presenting. Students in this course immerse themselves in design thinking methods that encourage their creativity and improve their ability to make insights into user needs. 
       </p></>,
       "image": "courses5"
     },
@@ -61,10 +45,7 @@ const gridListSlides = [
       "italicTitle": "Technology Entrepreneurship",
       "tabTitle": "TE 401",
       "textTitle": "TE 401: Design Thinking for Social Innovation",
-      "paragraphs": <><p className="serif">The second section of our TE 401 course is Design Thinking for Social Innovation. With one of the Siebel Center for Design’s main focuses being on social innovation, this course uses the design thinking process and applies it to projects focused on social needs and issues.  
-      </p>
-      <p className="serif">
-      Students in this course create a project surrounding an important issue facing the campus community and use the tools and attitudes of design to address it. Students will practice collaboration, experimentation, empathy, storytelling, synthesis, and evaluation throughout this semester-long course.
+      "paragraphs": <><p className="serif">With one of SCD’s main focuses being on social innovation, this course teaches the design thinking process as applied within the context of social needs and issues. Students in this course create a project surrounding an important issue facing the campus community and use the tools and approach of design thinking and human-centered design to address it. 
       </p></>,
       "image": "courses6"
     }
