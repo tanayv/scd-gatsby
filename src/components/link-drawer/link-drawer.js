@@ -24,7 +24,8 @@ class LinkDrawer extends React.Component {
         let self = this;
         return (
         <>
-            <h1 className="serif">{self.props.title}</h1>
+            <a id={self.props.anchor}></a>
+            <h1 className="serif" >{self.props.title}</h1>
             <div className="link-drawer">
                 {
                     this.props.options.map((option, key) => {

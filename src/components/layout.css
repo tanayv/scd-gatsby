@@ -725,3 +725,8 @@ h2.job-listing {
     width: 90%;
   }
 }
+
+a.pure-anchor {
+  padding-top: 80px;
+  margin-top: -80px;
+}

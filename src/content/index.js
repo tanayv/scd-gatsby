@@ -35,19 +35,19 @@ const threeElementGrid1 = {
     "elements": [
         {
             "image": "index1",
-            "link": "quad-day-party",
+            "link": "quad-day-par-tay",
             "title": "QUAD-DAY PARTAY!",
             "timeline": "August 2018"
         },
         {
             "image": "index2",
-            "link": "the-dorm-room-project",
+            "link": "a-dorm-in-an-office",
             "title": "THE DORM ROOM PROJECT",
             "timeline": "September 2018"
         },
         {
             "image": "index3",
-            "link": "loveapoaolooza",
+            "link": "loveapalooza",
             "title": "LOVEAPAOLOOZA",
             "timeline": "Feb 12, 2019"
         }

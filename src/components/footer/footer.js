@@ -18,29 +18,28 @@ const Footer = () => (
             <div className="cell">
                     <Link to="/about"><h1>About</h1></Link>
                     <p>Director</p>
-                    <p>Tom Siebel</p>
-                    <p>Core Team</p>
-                    <p>Building</p>
+                    <Link to="/about#siebel"><p>Tom Siebel</p></Link>
+                    <Link to="/about#team"><p>Core Team</p></Link>
+                    <Link to="/about#building"><p>Building</p></Link>
                 </div>
                 <div className="cell">
                     <Link to="/connect"><h1>Connect</h1></Link>
-                    <p>Contact Info</p>
-                    <p>Newsletter</p>
-                    <p>Donate</p>
-                    <p>FAQ</p>
+                    <Link to="/connect/#contact"><p>Contact Info</p></Link>
+                    <Link to="/connect/#newsletter"><p>Newsletter</p></Link>
+                    <Link to="/connect/#donate"><p>Donate</p></Link>
+                    <Link to="/connect/#faq"><p>FAQ</p></Link>
                 </div>
                 <div className="cell">
                     <Link to="/stories"><h1>Stories</h1></Link>
                     <Link to="/stories"><p>Past Events</p></Link>
                 </div>
                 <div className="cell">
-                    <Link to="/courses"><h1>Courses</h1></Link>
-                    <Link to="/courses"><p>Prototyping</p></Link>
+                    <h1>Courses</h1>
                     <Link to="/courses"><p>SCD Courses</p></Link>
                 </div>
                 <div className="cell">
-                    <Link to="/resources"><h1>Resources</h1></Link>
-                    <Link to="/resources"><p>Coming Soon!</p></Link>
+                    <h1>Resources</h1>
+                    <p>Coming Soon!</p>
                 </div>
                 <div className="cell">
                     <Link to="/jobs"><h1>Jobs</h1></Link>
@@ -51,7 +50,7 @@ const Footer = () => (
                 <div className="cell wide">
                     <p>Copyright 2019</p>
                     <p>The Board of Trustees at the University of Illinois</p>
-                    <p>Privacy Statement | Engineering Cookie Policy | Cookie Settings</p>
+                    <p><a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank" rel="noopener noreferrer">Privacy Statement</a> | <a href="https://engineering.illinois.edu/cookie-policy.html" target="_blank" rel="noopener noreferrer">Engineering Cookie Policy</a></p>
                 </div>
                 <div className="cell wide anchor-right-bottom">
                     <SocialLinks theme="black"/>

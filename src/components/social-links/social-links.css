@@ -8,8 +8,17 @@
     margin-top: 20px;
 }
 
+p.serif .social-link-row a {
+    text-decoration: none !important;
+    border: none !important;
+}
+
 .social-link-row a {
     text-decoration: none !important;
+    border: none !important;
+}
+
+.social-link-row .social-link:hover{
     border: none !important;
 }
 

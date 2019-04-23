@@ -114,6 +114,20 @@ const ImageBlob = (props) => (
             }
           }
         }
+        stories2c: file(relativePath: { eq: "stories/dorm-room-in-an-office/stories2c.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories2d: file(relativePath: { eq: "stories/dorm-room-in-an-office/stories2d.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         stories2e: file(relativePath: { eq: "stories/dorm-room-in-an-office/stories2e.jpg" }) {
           childImageSharp {
             fluid {
@@ -136,6 +150,13 @@ const ImageBlob = (props) => (
           }
         }
         stories3c: file(relativePath: { eq: "stories/pop-ups/stories3c.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories3d: file(relativePath: { eq: "stories/pop-ups/1.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
@@ -185,6 +206,76 @@ const ImageBlob = (props) => (
           }
         }
         stories4f: file(relativePath: { eq: "stories/cat-hackathon/stories4f.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories5a: file(relativePath: { eq: "stories/halloween/1.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories5b: file(relativePath: { eq: "stories/halloween/2.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories5c: file(relativePath: { eq: "stories/halloween/3.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories5d: file(relativePath: { eq: "stories/halloween/4.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories5e: file(relativePath: { eq: "stories/halloween/5.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories6a: file(relativePath: { eq: "stories/loveapalooza/1.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories6b: file(relativePath: { eq: "stories/loveapalooza/4.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories6c: file(relativePath: { eq: "stories/loveapalooza/3.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories6d: file(relativePath: { eq: "stories/loveapalooza/2.png" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        stories6e: file(relativePath: { eq: "stories/loveapalooza/5.png" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid

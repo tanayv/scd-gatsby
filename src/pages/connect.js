@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import ImageBanner from "./../components/banner/image-banner/image-banner";
-
+import { Link } from "gatsby";
 import TextSplit from "./../components/grids/text-split";
 import SocialLinks from './../components/social-links/social-links';
 import Snapshot from "./../components/snapshot/snapshot";
@@ -18,8 +18,8 @@ const leftColumnDefinition =
         </p>
         <p class="serif">
         Connect with us over social media
-        <SocialLinks theme="black"/>
         </p>
+        <SocialLinks theme="black"/>
     </>;
 
 
@@ -33,7 +33,7 @@ const rightColumnDefinition =
         Are you a professor? Interested in integrating design thinking into your courses? Send us an email <a href="mailto: designcenter@illinois.edu">here</a>!
         </p>
         <p class="serif">
-        Check out our <a href="/jobs">employment opportunities</a> in the Jobs page or read our FAQ <a href="/about#faq">here</a>!
+        Check out our <a href="/jobs">employment opportunities</a> in the Jobs page or read our FAQ <Link to="/about#faq">here</Link>!
         </p>
     </>;
 

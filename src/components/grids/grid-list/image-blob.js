@@ -33,7 +33,7 @@ const ImageBlob = (props) => (
           }
         }
 
-        slash_student: file(relativePath: { eq: "slash_student.jpeg" }) {
+        slash_student: file(relativePath: { eq: "index/slashstudent.jpg" }) {
           childImageSharp {
             fluid(maxHeight: 1200) {
               ...GatsbyImageSharpFluid

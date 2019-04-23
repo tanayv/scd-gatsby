@@ -6,29 +6,31 @@ const storySnapshotData = [
   {
     heading: "",
     title: "POP-UP WORKSHOPS",
+    anchor: "pop-up-workshops",
     body: <>
             <p className="serif">
-            During fall semester of 2018 we held three different “Pop-Up Workshops,” which were opportunities for us to teach the design thinking process to students unable to enroll in one of our courses. 
+            We have been hosting many different “Pop-Up Workshops,” which are opportunities for us to teach the design thinking process to students unable to enroll in one of our courses. 
             </p>
             <p className="serif">
-            Our first Pop-Up took place one rainy Saturday morning at the Urbana Market at the Square. Though conditions weren’t ideal, all attendees eagerly participated and went home with many new insights. 
+            We’ve had Pop-Ups focused on farmer’s markets, cat behaviors, student eating habits, storytelling, and more! These Pop-Ups allow students to get a bite-sized version of the Design Thinking process in a workshop-style event.
             </p>
             <p className="serif">
-            Our second Pop-Up involved interviewing cat owners for an upcoming Cat Hackathon with the College of Veterinary Medicine. Our final Pop-Up was with the Technology Entrepreneur Center (TEC) and was focused on students’ eating habits on campus. We have many more Pop-Up Workshops coming up, so check out our calendar so you don’t miss any!
+            We’ll be having many more Pop-Up Workshops in the future, so make sure you check out our upcoming events on our <a target="_blank" href="https://www.facebook.com/pg/SCDillinois">Facebook page!</a>
             </p>
         </>,
-    mainImage: "stories3a",
+    mainImage: "stories3d",
     images: [
+        "stories3d",
         "stories3a",
         "stories3b",
-        "stories3c",
-        "stories3e",
         "stories3f",
+        "stories3e",
     ]
   },
   {
     heading: "",
     title: "LOVEAPALOOZA",
+    anchor: "loveapalooza",
     body: <>
             <p className="serif">
             We had our first Loveapalooza February of 2019 in the Courtyard Cafe. It was a night of stories, performances, and activities all relating to themes surrounding Valentine’s Day. 
@@ -40,18 +42,19 @@ const storySnapshotData = [
             We also had an amazing chocolate fountain and heart balloons littering the Courtyard Cafe!
             </p>
         </>,
-    mainImage: "stories3a",
+    mainImage: "stories6a",
     images: [
-        "stories3a",
-        "stories3b",
-        "stories3c",
-        "stories3e",
-        "stories3f",
+        "stories6a",
+        "stories6b",
+        "stories6c",
+        "stories6d",
+        "stories6e",
     ]
   },
   {
         heading: "",
         title: "A DORM IN AN OFFICE??",
+        anchor: "a-dorm-in-an-office",
         body: <>
                 <p className="serif">
                 As a double alum of the University of Illinois, Rachel Switzky, Director of SCD, wanted to be reminded of what it was like being a freshman on campus. 
@@ -60,48 +63,49 @@ const storySnapshotData = [
                 In order to gain empathy for our first-year students, Rachel decided to build a dorm in her office! 
                 </p>
                 <p className="serif">
-                In order to gain empathy for our first-year students, Rachel decided to build a dorm in her office! 
-                </p>
-                <p className="serif">
-                If you haven’t yet read her article about the experience, check it out.
+                If you haven’t yet read her article about the experience, <a href="https://medium.com/siebel-center-for-design/from-silicon-valley-to-a-dorm-room-94a450221819" target="_blank">check it out</a>.
                 </p>
             </>,
-        mainImage: "stories2a",
+        mainImage: "stories2b",
         images: [
-            "stories2a",
             "stories2b",
             "stories2e",
+            "stories2a",
+            "stories2c",
+            "stories2d"
         ]
   },
   {
     heading: "",
     title: "HALLOWEEN HOUSE OF HORRORIBLE FUN!",
+    anchor: "halloween",
     body: <>
             <p className="serif">
-            Our first interaction with our campus took place on Quad Day!!
+            The SCD team is a BIG FAN of Halloween, so we knew we wanted our first large event to be Halloween-related. 
             </p>
             <p className="serif">
-            We wanted to do something different to really grab students’ attention, so instead of a typical Quad Day booth we decided to ditch the standard folding table and opt for a hot pink couch in its place.
+            We ended up hosting this event at the CU Community Fab Lab and also partnered with Design For America, Industrial Designers Society of America, the Mannie L. Jackson Illinois Academic Enrichment and Leadership Program, and Illini Student Musicals. 
             </p>
             <p className="serif">
-            We also started our Slash Student conversation by asking students to tell us what their majors and side-gigs were. Oh, and we had a (root beer) keg. 
+            We wanted this event to be as collaborative as possible, so we tried to include as many different groups as possible in the planning process. 
             </p>
             <p className="serif">
-            This first interactive experience with students allowed us to start explaining the process of design thinking and what SCD is all about. It was a blast!
+            There was costume making, pumpkin decorating, a terrifying Haunted Basement, and fun had by all!
             </p>
         </>,
-    mainImage: "stories1b",
+    mainImage: "stories5a",
     images: [
-        "stories1b",
-        "stories1a",
-        "stories1c",
-        "stories1d",
-        "stories1e",
+        "stories5a",
+        "stories5d",
+        "stories5c",
+        "stories5e",
+        "stories5b",
     ]
   },
   {
     heading: "",
     title: "CAT HACKATHON",
+    anchor: "cat-hackathon",
     body: <>
             <p className="serif">
             In October, SCD got to be a part of a really cool experience with the College of Veterinary Medicine and the company VetMed2.0.
@@ -116,18 +120,19 @@ const storySnapshotData = [
             It was a cat-tastic time!
             </p>
         </>,
-    mainImage: "stories4e",
+    mainImage: "stories4d",
     images: [
-        "stories4e",
-        "stories4c",
         "stories4d",
-        "stories4f",
         "stories4b",
+        "stories4e",
+        "stories4f",
+        "stories4c"
     ]
   },
   {
         heading: "",
         title: "QUAD DAY PAR-TAY!",
+        anchor: "quad-day-par-tay",
         body: <>
                 <p className="serif">
                 Our first interaction with our campus took place on Quad Day!!
@@ -142,13 +147,13 @@ const storySnapshotData = [
                 This first interactive experience with students allowed us to start explaining the process of design thinking and what SCD is all about. It was a blast!
                 </p>
             </>,
-        mainImage: "stories1b",
+        mainImage: "stories1a",
         images: [
-            "stories1b",
             "stories1a",
             "stories1c",
-            "stories1d",
             "stories1e",
+            "stories1d",
+            "stories1b",
         ]
   }
 ]

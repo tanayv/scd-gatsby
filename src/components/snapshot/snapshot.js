@@ -16,6 +16,7 @@ class Snapshot extends React.Component {
         let self = this;
         return (
             <div className="snapshot">
+                <a className="pure-anchor" id={this.props.data.anchor}> </a>
                 <h1 className="serif">{this.props.data.heading}</h1>
                 <div class="left-column">
                     <div class="main-image">
