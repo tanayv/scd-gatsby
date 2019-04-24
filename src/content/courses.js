@@ -5,7 +5,7 @@ const gridListSlides = [
       "italicTitle": "Business Administration",
       "tabTitle": "BADM 357",
       "textTitle": "BADM 357: Digital Making Seminar",
-      "paragraphs": <><p className="serif">Digital Making is the second course in a sequence of courses SCD is hosting surrounding Accessible Product Design. In partnership with Disability Resources and Educational Services (DRES), students use the design thinking process to develop potential solutions to accessibility issues, focusing on design refinement through rapid prototyping and building 3D printed models. Read about the overall vision for the course series <a href="https://www.linkedin.com/pulse/think-design-impact-vishal-sachdev/" target="_blank">here</a> and learn more about the Digital Making course <a href="https://digitalmaking.web.illinois.edu/spring2019/" target="_blank">here</a>. 
+      "paragraphs": <><p className="serif">Digital Making is the second course in a sequence of courses SCD is hosting surrounding Accessible Product Design. In partnership with Disability Resources and Educational Services (DRES), students use the design thinking process to develop potential solutions to accessibility issues, focusing on design refinement through rapid prototyping and building 3D printed models. Read about the overall vision for the course series <a href="https://www.linkedin.com/pulse/think-design-impact-vishal-sachdev/" rel="noopener noreferrer" target="_blank">here</a> and learn more about the Digital Making course <a href="https://digitalmaking.web.illinois.edu/spring2019/" rel="noopener noreferrer" target="_blank">here</a>. 
       </p></>,
       "links": [],
       "image": "courses1"

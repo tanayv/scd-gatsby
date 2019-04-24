@@ -15,7 +15,7 @@ const storySnapshotData = [
             We’ve had Pop-Ups focused on farmer’s markets, cat behaviors, student eating habits, storytelling, and more! These Pop-Ups allow students to get a bite-sized version of the Design Thinking process in a workshop-style event.
             </p>
             <p className="serif">
-            We’ll be having many more Pop-Up Workshops in the future, so make sure you check out our upcoming events on our <a target="_blank" href="https://www.facebook.com/pg/SCDillinois">Facebook page!</a>
+            We’ll be having many more Pop-Up Workshops in the future, so make sure you check out our upcoming events on our <a target="_blank" href="https://www.facebook.com/pg/SCDillinois" rel="noopener noreferrer">Facebook page!</a>
             </p>
         </>,
     mainImage: "stories3d",
@@ -63,7 +63,7 @@ const storySnapshotData = [
                 In order to gain empathy for our first-year students, Rachel decided to build a dorm in her office! 
                 </p>
                 <p className="serif">
-                If you haven’t yet read her article about the experience, <a href="https://medium.com/siebel-center-for-design/from-silicon-valley-to-a-dorm-room-94a450221819" target="_blank">check it out</a>.
+                If you haven’t yet read her article about the experience, <a href="https://medium.com/siebel-center-for-design/from-silicon-valley-to-a-dorm-room-94a450221819" rel="noopener noreferrer" target="_blank">check it out</a>.
                 </p>
             </>,
         mainImage: "stories2b",
