@@ -67,22 +67,22 @@ const BuildingSnapshotData = {
 
 const faqConfiguration = [
   {"title": "What does SCD stand for?", "content": (
-    <p class="serif">
+    <p className="serif">
     SCD stands for the Siebel Center for Design!
     </p> 
     )},
   {"title": "Is the Siebel Center for Design in the College of Engineering?", "content": (
-    <p class="serif">
+    <p className="serif">
       Nope! We love our Engineering collaborators, but we are not affiliated with any specific college on campus. This allows us to be completely multidisciplinary and work with everyone!
     </p> 
     )},
   {"title": "Is the Siebel Center for Design the same as the Siebel Center for Computer Science?", "content": (
-    <p class="serif">
+    <p className="serif">
       Nope! Same name, different groups. The Siebel Center for Computer Science is a building located on the North (Engineering) Quad. The Siebel Center for Design building is being built in the space between Fourth and Sixth street and Huff Hall and the Art + Design Building. The Siebel Center for Computer Science IS affiliated with the College of Engineering while SCD is not. :)
     </p> 
     )},
   {"title": "Who is SCD for? Just Art, Business, or Engineering students?", "content": (
-    <p class="serif">
+    <p className="serif">
       SCD is for EVERYONE! Regardless of your major or interests, we would love to work with everyone that wants to work with us!
     </p> 
     )},

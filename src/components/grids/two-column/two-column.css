@@ -7,10 +7,23 @@
 
 .two-column-grid .grid-column:last-of-type {
     margin-left: 50px;
-
 }
 
 
 .two-column-grid {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+}
+
+/** General Mobile Display */
+@media (max-width: 800px) {
+    .two-column-grid .grid-column {
+        width: 100%;
+        padding: 30px 0;
+        display: block;
+    }
+
+    .two-column-grid .grid-column:last-of-type {
+        margin-left: 0px;
+    }
+
 }

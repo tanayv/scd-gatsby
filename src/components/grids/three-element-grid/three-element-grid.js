@@ -11,7 +11,7 @@ class ThreeElementGrid extends React.Component {
                 {this.props.data.intro}
                 <div className="grid-container">
                     <div className="grid-column narrow">
-                        <Link to={"/stories/#" + this.props.data.elements[0].link}>
+                        <Link to={"stories/#" + this.props.data.elements[0].link}>
                             <div className="grid-element">
                                 <ImageBlob name={this.props.data.elements[0].image}></ImageBlob>
                                 <div className="content">
@@ -23,7 +23,7 @@ class ThreeElementGrid extends React.Component {
                         </Link>
                     </div>
                     <div className="grid-column wide">
-                        <Link to={"/stories/#" + this.props.data.elements[1].link}>
+                        <Link to={"stories/#" + this.props.data.elements[1].link}>
                             <div className="grid-element">
                                 <ImageBlob name={this.props.data.elements[1].image}></ImageBlob>
                                 <div className="content">
@@ -33,7 +33,7 @@ class ThreeElementGrid extends React.Component {
                                 </div>
                             </div>
                         </Link>
-                        <Link to={"/stories/#" + this.props.data.elements[2].link}>
+                        <Link to={"stories/#" + this.props.data.elements[2].link}>
                             <div className="grid-element">
                                 <ImageBlob name={this.props.data.elements[2].image}></ImageBlob>
                                 <div className="content">

@@ -19,7 +19,7 @@ class GridList extends React.Component {
         <div className={gridBoxClasses}>
             <div className="scd-cw-75">
             <h1 className="serif">{this.props.title}</h1>
-            <p className="serif">{this.props.intro}</p>
+            {this.props.intro}
                 {this.props.data.map((slide, key) => (
                     <GridBoxSlide key={key}
                     italicTitle={slide.italicTitle}

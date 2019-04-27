@@ -12,7 +12,7 @@ class GridBoxSlide extends React.Component {
             <div className="text-container">
                 <i>{this.props.italicTitle}</i>
                 <h1>{this.props.textTitle}</h1>
-                <hr class="divider-short"/>
+                <hr className="divider-short"/>
                 {this.props.paragraphs}
             </div>
         </div>

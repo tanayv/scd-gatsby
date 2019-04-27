@@ -14,25 +14,33 @@ class Snapshot extends React.Component {
 
     render = () => {
         let self = this;
-        return (
-            <div className="snapshot">
-                <h1 className="serif" id={this.props.data.anchor}>{this.props.data.heading}</h1>
-                <div class="left-column">
-                    <div class="main-image">
-                        <ImageBlob name={this.state.mainImage}/>
-                    </div>
-                    {this.props.data.images.map((image, key) => (
-                        <div className="thumbnail" key={key} onClick={(e) => self.changeMainImage(e, image)}>
-                            <ImageBlob name={image}/>
-                        </div>
-                    ))}
-                </div>
-                <div class="right-column">
-                    <h1>{this.props.data.title}</h1>
-                    <hr className="teal-separator"></hr>
-                    {this.props.data.body}
-                </div>
+        let anchorId = this.props.data.anchor|| "";
+        let rightColumn;
+        if (this.props.data.title)
+            rightColumn = <div className="right-column">
+                <h1>{this.props.data.title}</h1>
+                <hr className="teal-separator"></hr>
+                {this.props.data.body}
+            </div>;
+        else 
+            rightColumn = <div className="right-column">
+                {this.props.data.body}
             </div>
+        return (
+            <div className="snapshot" id={anchorId}>
+                <h1 className="serif" >{this.props.data.heading}</h1>
+                    <div className="left-column">
+                        <div className="main-image">
+                            <ImageBlob name={this.state.mainImage}/>
+                        </div>
+                        {this.props.data.images.map((image, key) => (
+                            <div className="thumbnail" key={key} onClick={(e) => self.changeMainImage(e, image)}>
+                                <ImageBlob name={image}/>
+                            </div>
+                        ))}
+                    </div>
+                    {rightColumn}
+                </div>
         )
     }
 

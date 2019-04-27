@@ -675,14 +675,14 @@ p.serif {
 }
 
 p.serif a {
-  color: #69C8C4;
-  border-bottom: 1px solid #69C8C4;
+  color: #048B90;
+  border-bottom: 1px solid #048B90;
   text-decoration: none;
 }
 
 p.serif a:hover {
-  color: #048B90 !important;
-  border-bottom: 1px solid  #048B90  !important;
+  color: #69C8C4 !important;
+  border-bottom: 1px solid #69C8C4 !important;
 }
 
 hr.teal-separator {

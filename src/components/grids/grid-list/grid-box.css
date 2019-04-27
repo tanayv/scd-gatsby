@@ -33,16 +33,11 @@
     border-bottom: 2px solid #69C8C4;
 }
 
-.grid-box-theme-teal .grid-box-default-slide .text-container a {
-    color: #69C8C4;
-    border-bottom: 1px solid #69C8C4;
-}
-
 .grid-box-theme-teal .grid-box-default-slide hr {
     background: #69C8C4;
 }
 
-/** Purple */
+/** Purple 
 .grid-box-theme-purple .navigation {
     border-bottom: 2px solid #A5228E;
 }
@@ -65,7 +60,7 @@
 }
 
 
-/** Red **/
+/** Red 
 
 .grid-box-theme-red .navigation {
     border-bottom: 2px solid #E74B26;

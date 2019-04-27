@@ -42,3 +42,35 @@
 .snapshot h1 {
     color: #11294B;
 }
+
+
+/** General Mobile Display */
+@media (max-width: 800px) {
+
+    .snapshot .left-column {
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+    .snapshot .left-column .main-image {
+        height: 250px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .snapshot .left-column .thumbnail {
+        height: 40px;
+        width: 40px;
+    }
+
+    .snapshot .right-column {
+        width: 100%;
+        display: block;
+    }
+
+
+
+
+
+}
