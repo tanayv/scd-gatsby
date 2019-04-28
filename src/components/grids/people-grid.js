@@ -6,6 +6,7 @@ class PeopleGrid extends React.Component {
     render = () => {
         return (
             <>
+            <span className="anchor" id={this.props.anchor}></span>
             <h1 className="serif about">Who is SCD?</h1>
             <div className="people-grid">
                 

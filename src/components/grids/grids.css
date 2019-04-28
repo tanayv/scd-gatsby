@@ -272,3 +272,11 @@ h1.serif.about {
     font-size: 1.1rem;
     margin-top: 5px;
 }
+
+/** Anchor Hack **/
+span.anchor {
+    display: block;
+    position: relative;
+    top: -140px;
+    visibility: hidden;
+}

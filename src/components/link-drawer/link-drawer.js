@@ -31,7 +31,7 @@ class LinkDrawer extends React.Component {
         <>
             {heading}
             <div className="link-drawer">
-                <a class="anchor" id={self.props.anchor}></a>
+                <span className="anchor" id={self.props.anchor}></span>
                 {
                     this.props.options.map((option, key) => {
                         if (key === self.state.activeDrawer)

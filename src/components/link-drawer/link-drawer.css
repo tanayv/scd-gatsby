@@ -73,7 +73,7 @@
    text-decoration: none;
  }
 
- .link-drawer a.anchor {
+ .link-drawer span.anchor {
   display: block;
   position: relative;
   top: -200px;

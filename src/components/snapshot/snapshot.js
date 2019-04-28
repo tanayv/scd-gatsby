@@ -1,6 +1,7 @@
 import React from "react"
 import "./snapshot.css"
 import ImageBlob from "./../image-blob/image-blob";
+import Hammer from "react-hammerjs";
 
 class Snapshot extends React.Component {
 
@@ -10,11 +11,17 @@ class Snapshot extends React.Component {
             mainImage: props.data.mainImage
         };
         this.changeMainImage = this.changeMainImage.bind(this);
+        this.incrementMainImage = this.incrementMainImage.bind(this);
+        this.handleSwipe = this.handleSwipe.bind(this);
     }
+
 
     render = () => {
         let self = this;
         let anchorId = this.props.data.anchor|| "";
+        
+
+        /** Determine if line/hr is needed based on title */
         let rightColumn;
         if (this.props.data.title)
             rightColumn = <div className="right-column">
@@ -26,14 +33,37 @@ class Snapshot extends React.Component {
             rightColumn = <div className="right-column">
                 {this.props.data.body}
             </div>
+
+        /** Determine if arrows are needed on image depending on number of thumbnails */
+        let imageContainer;
+        if (this.props.data.images.length === 1) {
+            imageContainer = <div className="main-image">
+                <ImageBlob name={this.state.mainImage}/>
+            </div>;
+        }
+
+        else {
+            imageContainer = <Hammer onSwipe={(e) => this.handleSwipe(e, e.velocityX)}><div className="main-image snapshot-swiper">
+                <ImageBlob name={this.state.mainImage}/>
+                <div className="arrow-container">
+                    <div className="arrow-circle" onClick={(e) =>
+                        this.incrementMainImage(e, -1)}>
+                        <i className="fas fa-angle-left"></i>
+                    </div>
+                    <div className="arrow-circle" onClick={(e) =>
+                        this.incrementMainImage(e, 1)}>
+                        <i className="fas fa-angle-right"></i>
+                    </div>
+                </div>
+            </div></Hammer>;
+        }
+
         return (
             <div className="snapshot">
-                <a class="anchor" id={anchorId}></a>
+                <span className="anchor" id={anchorId}></span>
                 <h1 className="serif" >{this.props.data.heading}</h1>
                     <div className="left-column">
-                        <div className="main-image">
-                            <ImageBlob name={this.state.mainImage}/>
-                        </div>
+                        {imageContainer}
                         {this.props.data.images.map((image, key) => (
                             <div className="thumbnail" key={key} onClick={(e) => self.changeMainImage(e, image)}>
                                 <ImageBlob name={image}/>
@@ -49,6 +79,44 @@ class Snapshot extends React.Component {
     changeMainImage = (e, newImage) => {
         e.preventDefault();
         this.setState({mainImage: newImage});
+    }
+
+    incrementMainImage = (e, increment) => {
+        e.preventDefault();
+
+        /** Get current increment */
+        let index = this.props.data.images.indexOf(this.state.mainImage);
+
+        let newImageIndex = index; 
+
+        if (index !== -1) {
+            /** Implement edge cases */
+
+            // Move to last image if -1 after first image
+            if (index === 0 && increment === -1)
+                newImageIndex = this.props.data.images.length - 1;
+            
+            // Move to first image if +ve after last image
+            else if (index === this.props.data.images.length - 1 && increment === 1)
+                newImageIndex = 0;
+
+            else {
+                newImageIndex = index + increment;
+            }
+        }
+
+        this.setState({mainImage: this.props.data.images[newImageIndex]});
+
+    }
+
+
+    handleSwipe = (e, velocityX) => {
+        e.preventDefault();
+        if (velocityX > 0) 
+            this.incrementMainImage(e, -1)
+        else
+            this.incrementMainImage(e, 1)
+
     }
 }
 
