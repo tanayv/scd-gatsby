@@ -31,6 +31,7 @@ const GridBoxData = {
 
 const SiebelSnapshotData = {
   heading: "Guiding Force",
+  anchor: "siebel",
   title: "Thomas M. Siebel",
   body: <>
           <p className="serif">
@@ -49,6 +50,7 @@ const SiebelSnapshotData = {
 
 const BuildingSnapshotData = {
   heading: "Where is SCD?",
+  anchor: "building",
   title: "Our Amazing Building",
   body: <>
           <p className="serif">
@@ -90,34 +92,9 @@ const faqConfiguration = [
 
 const peopleGridData = [
   {
-    image: "sticker1", 
-    name: "Rachel Switzky",
-    role: "Director"
-  },
-  {
     image: "sticker2", 
     name: "Ava Bilimoria",
     role: "Design Strategist"
-  },
-  {
-    image: "sticker3", 
-    name: "Lucas O'Bryan",
-    role: "Design Strategist"
-  },
-  {
-    image: "sticker4", 
-    name: "Jake Fava",
-    role: "Design Strategist"
-  },
-  {
-    image: "sticker5", 
-    name: "Rebecca Sweeney",
-    role: "Marketing Strategist"
-  },
-  {
-    image: "sticker6", 
-    name: "Amanda Henderson",
-    role: "Lecturer and Senior Design Strategist"
   },
   {
     image: "sticker7", 
@@ -125,9 +102,24 @@ const peopleGridData = [
     role: "Senior Design Strategist, Social Impact"
   },
   {
-    image: "sticker8", 
-    name: "Dr. William Patterson",
-    role: "Senior Design Strategist, Social Impact"
+    image: "sticker4", 
+    name: "Jake Fava",
+    role: "Design Strategist"
+  },
+  {
+    image: "sticker6", 
+    name: "Amanda Henderson",
+    role: "Lecturer and Senior Design Strategist"
+  },
+  {
+    image: "sticker10", 
+    name: "Megan McCausland",
+    role: "Graphic Designer"
+  },
+  {
+    image: "sticker3", 
+    name: "Lucas O'Bryan",
+    role: "Design Strategist"
   },
   {
     image: "sticker9", 
@@ -135,9 +127,19 @@ const peopleGridData = [
     role: "Senior Design Strategist"
   },
   {
-    image: "sticker10", 
-    name: "Megan McCausland",
-    role: "Graphic Designer"
+    image: "sticker8", 
+    name: "Dr. William Patterson",
+    role: "Senior Design Strategist, Social Impact"
+  },
+  {
+    image: "sticker5", 
+    name: "Rebecca Sweeney",
+    role: "Marketing Strategist"
+  },
+  {
+    image: "sticker1", 
+    name: "Rachel Switzky",
+    role: "Director"
   },
   {
     image: "sticker11", 

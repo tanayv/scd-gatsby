@@ -7,16 +7,22 @@ class Carousel extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            timer: 5,
-            activeSlide: 2
+            timer: 4,
+            activeSlide: 2,
+            carouselSubscription: {}
         };
-        setInterval(() => {
-            if (this.state.activeSlide < 2)
+        this.state.carouselSubscription = setInterval(() => {
+            if (this.state.activeSlide < 4)
                 this.setState({activeSlide: this.state.activeSlide+1 });
             else {
                 this.setState({activeSlide: 0 });
             }
         }, this.state.timer * 1000);
+    }
+
+
+    componentWillUnmount() {
+        clearInterval(this.state.carouselSubscription);
     }
 
     render = () => {

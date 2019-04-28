@@ -27,7 +27,8 @@ class Snapshot extends React.Component {
                 {this.props.data.body}
             </div>
         return (
-            <div className="snapshot" id={anchorId}>
+            <div className="snapshot">
+                <a class="anchor" id={anchorId}></a>
                 <h1 className="serif" >{this.props.data.heading}</h1>
                     <div className="left-column">
                         <div className="main-image">

@@ -17,7 +17,6 @@ const Footer = () => (
             <div className="row">
             <div className="cell">
                     <Link to="/about"><h1>About</h1></Link>
-                    <p>Director</p>
                     <Link to="/about#siebel"><p>Tom Siebel</p></Link>
                     <Link to="/about#team"><p>Core Team</p></Link>
                     <Link to="/about#building"><p>Building</p></Link>
@@ -27,14 +26,14 @@ const Footer = () => (
                     <Link to="/connect/#contact"><p>Contact Info</p></Link>
                     <Link to="/connect/#newsletter"><p>Newsletter</p></Link>
                     <Link to="/connect/#donate"><p>Donate</p></Link>
-                    <Link to="/connect/#faq"><p>FAQ</p></Link>
+                    <Link to="/about/#faq"><p>FAQ</p></Link>
                 </div>
                 <div className="cell">
                     <Link to="/stories"><h1>Stories</h1></Link>
                     <Link to="/stories"><p>Past Events</p></Link>
                 </div>
                 <div className="cell">
-                    <h1>Courses</h1>
+                    <Link to="/courses"><h1>Courses</h1></Link>
                     <Link to="/courses"><p>SCD Courses</p></Link>
                 </div>
                 <div className="cell">

@@ -24,13 +24,14 @@ class LinkDrawer extends React.Component {
         let self = this;
         let heading;
         if (self.props.title)
-            heading = <h1 className="serif" id={self.props.anchor}>{self.props.title}</h1>;
+            heading = <h1 className="serif">{self.props.title}</h1>;
         else
             heading = null;
         return (
         <>
             {heading}
             <div className="link-drawer">
+                <a class="anchor" id={self.props.anchor}></a>
                 {
                     this.props.options.map((option, key) => {
                         if (key === self.state.activeDrawer)
