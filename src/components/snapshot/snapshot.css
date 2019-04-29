@@ -10,10 +10,15 @@
 }
 
 .snapshot .left-column .main-image {
-    height: 400px;
+    height: 300px;
     width: 100%;
     margin-bottom: 15px;
     position: relative;
+}
+
+.snapshot .left-column .main-image.square {
+    height: 400px;
+    width: 100%;
 }
 
 .snapshot .left-column .thumbnail {

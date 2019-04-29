@@ -708,7 +708,6 @@ h2.job-listing {
   height: 400px;
   width: 400px;
   margin: 50px auto;
-
 }
 
 /** Widescreen Display Layout Fixes */
@@ -723,6 +722,10 @@ h2.job-listing {
 @media (max-width: 800px) {
   .scd-cw-75 {
     width: 90%;
+  }
+
+  .standalone-image {
+    width: 80%;
   }
 }
 

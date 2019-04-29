@@ -19,7 +19,11 @@ class Snapshot extends React.Component {
     render = () => {
         let self = this;
         let anchorId = this.props.data.anchor|| "";
-        
+        let imageClasses = "main-image";
+
+
+        if (this.props.shape === "square")
+            imageClasses += " square";
 
         /** Determine if line/hr is needed based on title */
         let rightColumn;
@@ -36,14 +40,15 @@ class Snapshot extends React.Component {
 
         /** Determine if arrows are needed on image depending on number of thumbnails */
         let imageContainer;
-        if (this.props.data.images.length === 1) {
-            imageContainer = <div className="main-image">
+        if (this.props.data.images.length <= 1) {
+            imageContainer = <div className={imageClasses}>
                 <ImageBlob name={this.state.mainImage}/>
             </div>;
         }
 
+
         else {
-            imageContainer = <Hammer onSwipe={(e) => this.handleSwipe(e, e.velocityX)}><div className="main-image snapshot-swiper">
+            imageContainer = <Hammer onSwipe={(e) => this.handleSwipe(e, e.velocityX)}><div className={imageClasses + " snapshot-swiper"}>
                 <ImageBlob name={this.state.mainImage}/>
                 <div className="arrow-container">
                     <div className="arrow-circle" onClick={(e) =>
