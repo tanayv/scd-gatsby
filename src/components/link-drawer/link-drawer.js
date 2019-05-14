@@ -37,14 +37,14 @@ class LinkDrawer extends React.Component {
                         if (key === self.state.activeDrawer)
                             return (
                             <div className="option-container" key={key}>
-                                <div className="option" onClick={(e) => self.toggleDrawer(e, key)}><span className="bullet"></span>{option.title}<Chevron status="active"/></div>
+                                <div className="option" onClick={(e) => self.toggleDrawer(e, key)}><span className="bullet"></span><div className="option-title">{option.title}</div><Chevron status="active"/></div>
                                 <div className="content active">{option.content}</div>
                             </div>
                             )
                         else
                             return (
                             <div className="option-container" key={key}>
-                                <div className="option" onClick={(e) => self.toggleDrawer(e, key)}><span className="bullet"></span>{option.title}<Chevron status="inactive"/></div>
+                                <div className="option" onClick={(e) => self.toggleDrawer(e, key)}><span className="bullet"></span><div className="option-title">{option.title}</div><Chevron status="inactive"/></div>
                                 <div className="content inactive">{option.content}</div>
                             </div>
                             )

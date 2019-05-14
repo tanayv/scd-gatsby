@@ -24,8 +24,8 @@ const CoursesPage = () => (
           />
         
         <h1 className="serif">View some of our courses from the 2018-2019 academic year below!</h1>
-        </div>
         <GridList theme="teal" data={gridListSlides}/>
+        </div>
     </Layout>
     </>
 )

@@ -100,6 +100,13 @@ const ImageBlob = (props) => (
             }
           }
         }
+        stories1f: file(relativePath: { eq: "stories/quad-day-party/stories1f.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         stories2a: file(relativePath: { eq: "stories/dorm-room-in-an-office/stories2a.jpg" }) {
           childImageSharp {
             fluid {

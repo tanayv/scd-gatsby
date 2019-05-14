@@ -78,7 +78,7 @@ const stackedSlides = {
     {
       "textTitle": "We ❤️ Social Innovators!",
       "paragraphs": <><p className="serif">One of our main initiatives at SCD is to broaden the definition of innovation to include innovations within the social sphere. There are so many inspiring individuals and groups affiliated with our university that are creating change with their innovative ideas, and we wanted to highlight some of them.</p><p className="serif">We created the Social Innovation Spotlight to share a different individual or group’s story each week on our social media pages as well as on our <a href="https://spark.adobe.com/page/xLOTpCHHjIqex/">Social Innovation Spotlight page</a>. Make sure you check it out!</p>
-      <p className="serif">If you or someone you know is working on a socially innovative project that you think should be spotlighted, <a href="mailto:designcenter@illinois.edu">please email us</a>.</p></>,
+      <p className="serif">If you or someone you know is working on a socially innovative project that you think should be spotlighted, please email us at <a href="mailto:designcenter@illinois.edu">designcenter@illinois.edu</a>.</p></>,
       "links": [],
       "image": "og_happenings_3"
     }
@@ -121,7 +121,7 @@ const linkDrawerOptions = [
       )},
     {"title": "FOR FACULTY & STAFF", "content": (
       <ul>
-        <li><h1>Pilot a Course with SCD</h1> Are you a professor on campus? Do feel that design thinking would be a great addition to your course? <a href="mailto:designcenter@illinois.edu">Let us know!</a> We’re looking to work with as many courses as we can. </li>
+        <li><h1>Pilot a Course with SCD</h1> If you’re a professor on campus and feel that design thinking would be a great addition to your course, send us an email at <a href="mailto: designcenter@illinois.edu" >designcenter@illinois.edu</a>! We’re looking to work with as many courses as we can.</li>
         <li><h1>Collaborators Wanted</h1> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please <Link to="connect">contact us!</Link></li>
         <li><h1>Events</h1>Want to get a taste of SCD? Join us at one of our events! Check out our <a href="https://www.facebook.com/pg/SCDillinois/events/">Facebook page</a> to see what we have coming up.</li>
       </ul>  )},

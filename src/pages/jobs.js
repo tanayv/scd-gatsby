@@ -15,7 +15,7 @@ const ConnectPage = () => (
         <ImageBanner page="jobs" title="join the SCD squad!"/>
         <div className="scd-cw-75">
             <TextSplit left={<h1 className="serif">Check out our Job Openings!</h1>} right={<p className="serif">Do YOU ❤️ SCD so much that you want to join our team? We are in the process of growing our team, so keep checking back for new openings!</p>}/>
-            <hr/>
+            <TextSplit left={<h1 className="serif">Looking for a student internship?</h1>} right={<p className="serif">If you are interested in working with SCD in some capacity but don't see any internship openings listed, please send us an email at <a href="mailto: designcenter@illinois.edu">designcenter@illinois.edu</a> so we can keep you in mind for future openings!</p>}/>
             {jobData.map((listing, key) => {
 
                 if (!listing.comingSoon) return (

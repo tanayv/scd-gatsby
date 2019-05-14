@@ -8,6 +8,10 @@
     transition: all .2s ease-in-out;
  }
 
+ .link-drawer .option .option-title {
+   width: 90%;
+ }
+
  .link-drawer {
     padding-bottom: 30px;
     transition: all .2s ease-in-out;
@@ -36,6 +40,7 @@
    right: 0;
    font-size: 1rem;
    color: #048B90;
+   margin-left: 10px;
  }
 
  .option-container {

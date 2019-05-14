@@ -43,7 +43,7 @@ class ShallowHeader extends React.Component {
     )
 
     generateOptionStyles = (name) => {
-      console.log(this.props.activePage + ", name:" + name + "===" + (this.props.activePage === name))
+      //console.log(this.props.activePage + ", name:" + name + "===" + (this.props.activePage === name))
       if (this.props.activePage === name)
         return "option active";
       else 

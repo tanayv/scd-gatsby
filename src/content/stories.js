@@ -117,7 +117,7 @@ const storySnapshotData = [
             The insights gained from these sessions were then presented at the Hackathon for participants to use. 
             </p>
             <p className="serif">
-            It was a cat-tastic time!
+            The SCD team also wrote a paper regarding the findings of the research done for this Hackathon that was accepted to DRS Learn X Design 2019, the 5th International Conference for Design Education Researchers, which is being hosted at Middle Eastern Technical University (METU) in Ankara, Turkey this July. Learn more about the conference <a target="_blank" rel="noopener noreferrer" href="http://drslxd19.id.metu.edu.tr/">here</a>.
             </p>
         </>,
     mainImage: "stories4d",
@@ -154,6 +154,7 @@ const storySnapshotData = [
             "stories1e",
             "stories1d",
             "stories1b",
+            "stories1f",
         ]
   }
 ]
