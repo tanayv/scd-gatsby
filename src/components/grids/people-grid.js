@@ -1,15 +1,21 @@
 import React from "react";
 import ImageBlob from "./../image-blob/image-blob";
+
 import "./grids.css";
 
 class PeopleGrid extends React.Component {
     render = () => {
+
+        let peopleGridClasses = "people-grid";
+
+        if (this.props.special === "only-two")
+            peopleGridClasses += " only-two";
+
+
+
         return (
             <>
-            <span className="anchor" id={this.props.anchor}></span>
-            <h1 className="serif about">Who is SCD?</h1>
-            <div className="people-grid">
-                
+            <div className={peopleGridClasses}>
                 {this.props.data.map((person, key) => {
                     return (
                         <div className="card" key={key}>

@@ -11,10 +11,10 @@ const ConnectPage = () => (
         <meta charSet="utf-8" />
         <title>SCD / Jobs</title>
     </Helmet>
-    <Layout>
+    <Layout activePage="jobs">
         <ImageBanner page="jobs" title="join the SCD squad!"/>
         <div className="scd-cw-75">
-            <TextSplit left={<h1 className="serif">Check out our Job Openings!</h1>} right={<p className="serif">Do YOU heart SCD so much that you want to join our team? We have several job opportunities open at this time, and are always adding more! Check back later if you don’t see a position that fits your specific talents.</p>}/>
+            <TextSplit left={<h1 className="serif">Check out our Job Openings!</h1>} right={<p className="serif">Do YOU ❤️ SCD so much that you want to join our team? We are in the process of growing our team, so keep checking back for new openings!</p>}/>
             <hr/>
             {jobData.map((listing, key) => {
 

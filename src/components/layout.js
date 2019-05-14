@@ -5,11 +5,11 @@ import Header from "./header/header";
 import Footer from "./footer/footer";
 import "./layout.css"
 
-const Layout = ({ children }) => (
+const Layout = (props) => (
     <>
-      <ShallowHeader siteTitle="Siebel Center for Design"/>
-      <Header siteTitle="Siebel Center for Design"></Header>
-        <main>{children}</main>
+      <ShallowHeader siteTitle="Siebel Center for Design" activePage={props.activePage}/>
+      <Header siteTitle="Siebel Center for Design" activePage={props.activePage}></Header>
+        <main>{props.children}</main>
       <Footer/>
     </>
 )

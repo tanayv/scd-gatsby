@@ -49,6 +49,19 @@
     color: #11294B;
 }
 
+
+.snapshot .right-column h1 {
+    margin: 0;
+}
+
+.snapshot h2.italics {
+    color: #11294B;
+    font-size: 1.4rem;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .snapshot .left-column .main-image .arrow-container {
     position: absolute;
     width: 100%;

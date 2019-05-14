@@ -28,12 +28,14 @@ const IndexPage = () => (
     <meta charSet="utf-8" />
     <title>SCD / Home</title>
   </Helmet>
-  <Layout>
+  <Layout activePage="home">
     <Carousel data={carouselData}/>
     <Hello/>
-    <TwoColumnGrid title="We're glad you're here" left={leftColumn} right={<LinkDrawer options={linkDrawerOptions}/>}></TwoColumnGrid>
-    <ThreeElementGrid title={`Cool stuff we've done!`} data={threeElementGrid1}/>
-    <GridList title={`Ongoing Happenings!`} intro={stackedSlides.intro} theme={stackedSlides.theme} data={stackedSlides.slides}/>
+    <div className="scd-cw-75">
+      <TwoColumnGrid title="We're glad you're here" left={leftColumn} right={<LinkDrawer options={linkDrawerOptions}/>}></TwoColumnGrid>
+      <ThreeElementGrid title={`Cool stuff we've done!`} data={threeElementGrid1}/>
+      <GridList title={`Ongoing Happenings!`} intro={stackedSlides.intro} theme={stackedSlides.theme} data={stackedSlides.slides}/>
+    </div>
   </Layout>
   </>
 )

@@ -30,6 +30,7 @@ class Snapshot extends React.Component {
         if (this.props.data.title)
             rightColumn = <div className="right-column">
                 <h1>{this.props.data.title}</h1>
+                <h2 className="italics">{this.props.data.italics}</h2>
                 <hr className="teal-separator"></hr>
                 {this.props.data.body}
             </div>;
@@ -66,7 +67,7 @@ class Snapshot extends React.Component {
         return (
             <div className="snapshot">
                 <span className="anchor" id={anchorId}></span>
-                <h1 className="serif" >{this.props.data.heading}</h1>
+                {this.props.data.heading? <h1 className="serif" >{this.props.data.heading}</h1> : <></> }
                     <div className="left-column">
                         {imageContainer}
                         {this.props.data.images.map((image, key) => (

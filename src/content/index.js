@@ -5,27 +5,32 @@ const carouselData = [
   {
     "image": "resources_carousel",
     "title": "We love sharing our inspo... our favorite resources coming soon!",
-    "link": ""
+    "link": "",
+    "transparent": "false"
   },
   {
     "image": "newsletter_carousel",
     "title": "Join our Newsletter and get the latest on SCD activities!",
-    "link": ""
+    "link": "",
+    "transparent": "false"
   },
   {
     "image": "welcome_carousel",
     "title": "Welcome to the Siebel Center for Design",
-    "link": ""
+    "link": "",
+    "transparent": "false"
   },
   {
     "image": "siebel_carousel",
     "title": "Tom Siebel and the Siebel Center for Design",
-    "link": ""
+    "link": "",
+    "transparent": "true"
   },
   {
     "image": "courses_carousel",
     "title": "See how we're integrating Design Thinking into courses",
-    "link": ""
+    "link": "",
+    "transparent": "false"
   },
 ]
 
@@ -62,20 +67,20 @@ const stackedSlides = {
       "textTitle": "Meet Rachel for Coffee!",
       "paragraphs": <><p className="serif">AMA= "Ask Me Anything," and that's what Rachel, Director of the Siebel Center for Design, wants you to do!</p> <p className="serif">Are you still unsure what the Siebel Center for Design does? Do you want to learn more about Design Thinking? Do you think Rachel is an AWESOME Boss Lady and want to have coffee with her?</p> <p className="serif">Come out to one of her AMA Coffee Hours! These coffee hours happen every month, so check out our <a href="https://www.facebook.com/pg/SCDillinois">Facebook page</a> to see when the next one is.</p></>,
       "links": [],
-      "image": "coffee_hours"
+      "image": "og_happenings_1"
     },
     {
-      "textTitle": "SCD ♥ Slash Students!",
+      "textTitle": "SCD ❤️ Slash Students!",
       "paragraphs": <><p className="serif">At SCD, we believe it is important to foster multidisciplinary collaborations. We also understand that our students themselves are multidisciplinary, and are often involved in many things outside of their studies.</p> <p className="serif">We wanted to showcase our students in a way that hasn’t been done before; thus, the Slash Student project was born! Slash Student gives us a place to highlight all the things that make students unique and allow them to excel in many ways. Check out our <a href="https://www.facebook.com/pg/SCDillinois/photos/?tab=album&album_id=289840421515103">Slash Student album</a>, and the article written about the project by Darrien Rose on our <a href="https://medium.com/siebel-center-for-design/i-am-a-slash-student-17cbfa4fc1e8">Medium page</a>.</p></>,
       "links": [],
-      "image": "slash_student"
+      "image": "og_happenings_2"
     }, 
     {
-      "textTitle": "We ♥ Social Innovators!",
+      "textTitle": "We ❤️ Social Innovators!",
       "paragraphs": <><p className="serif">One of our main initiatives at SCD is to broaden the definition of innovation to include innovations within the social sphere. There are so many inspiring individuals and groups affiliated with our university that are creating change with their innovative ideas, and we wanted to highlight some of them.</p><p className="serif">We created the Social Innovation Spotlight to share a different individual or group’s story each week on our social media pages as well as on our <a href="https://spark.adobe.com/page/xLOTpCHHjIqex/">Social Innovation Spotlight page</a>. Make sure you check it out!</p>
       <p className="serif">If you or someone you know is working on a socially innovative project that you think should be spotlighted, <a href="mailto:designcenter@illinois.edu">please email us</a>.</p></>,
       "links": [],
-      "image": "social_spotlight"
+      "image": "og_happenings_3"
     }
   ]
 }
@@ -120,15 +125,15 @@ const linkDrawerOptions = [
         <li><h1>Collaborators Wanted</h1> We’re looking to engage with all parts of campus! If you have an idea for how we can help you, please <Link to="connect">contact us!</Link></li>
         <li><h1>Events</h1>Want to get a taste of SCD? Join us at one of our events! Check out our <a href="https://www.facebook.com/pg/SCDillinois/events/">Facebook page</a> to see what we have coming up.</li>
       </ul>  )},
-    {"title": "FOR EXTERNAL PARTNERS", "content": (
+    {
+      "title": "FOR EVERYONE ELSE!", "content": (
       <ul>
-        <li>If you are not affiliated with the university but want to interact with SCD, send us an <a href="mailto:designcenter@illinois.edu">email</a> detailing how you would like to be involved. If you would like to connect with Director Rachel Switzky, please <a href="mailto:rwoodall@illinois.edu">email</a> her assistant to set up a time.</li>
-      </ul>  )},
-    {"title": "FOR EVERYONE ELSE!", "content": (
-      <ul>
-        <li><h1>Available Openings</h1> SCD is expanding, and we are looking to hire the most creative and collaborative individuals we can find! If you have a passion for design thinking and human-centered design, be sure to <Link to="jobs">check out our openings</Link> and see if you meet our application qualifications! </li>
-        
-      </ul>  )}
+        <li>We are continually looking for new ways to engage with real-world contexts. if you are interested in sponsoring or being involved with a project, send us an email at <a href="mailto: designcenter@illinois.edu">designcenter@illinois.edu</a>.</li>
+        <li>If you would like to connect with Director Rachel Switzky, please email her at <a href="mailto: rswitzky@illinois.edu">rswitzky@illinois.edu</a>.</li>       
+        <li>
+        For all other requests, questions, comments, concerns, please feel free to be in touch.</li> 
+      </ul>  
+    )}
   ]
 
 export {

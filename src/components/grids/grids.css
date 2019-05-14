@@ -246,6 +246,10 @@ h1.serif.about {
     margin-bottom: 100px;
 }
 
+.people-grid.only-two {
+    width: calc(64%);
+}
+
 .people-grid .card {
     width: 300px;
     margin-bottom: 50px;

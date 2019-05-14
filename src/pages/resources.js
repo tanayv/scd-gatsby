@@ -14,7 +14,7 @@ const ResourcePage = () => (
         <meta charSet="utf-8" />
         <title>SCD / Resources</title>
     </Helmet>
-    <Layout>
+    <Layout activePage="resources">
         <ImageBanner page="resources" title="design resources we’re wild about!"/>
         <TwoColumnGrid title="We like sharing what we love." left={leftColumnDefinition} right={leftColumnDefinition}></TwoColumnGrid>
     </Layout>

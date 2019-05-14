@@ -26,11 +26,12 @@ class Carousel extends React.Component {
     }
 
     render = () => {
+
         if (this.props.data) {
             return (
                 <div className="carousel">
                     <CarouselSlide image={this.props.data[this.state.activeSlide].image}>
-                        <div className="text-container">
+                        <div className={this.generateContainerStyles(this.props.data[this.state.activeSlide].transparent)}>
                             <div className="scd-cw-75">
                                 <div className="tile-display">
                                     <h1>{this.props.data[this.state.activeSlide].title}</h1>
@@ -57,6 +58,13 @@ class Carousel extends React.Component {
         else {
             return null;
         }
+    }
+
+    generateContainerStyles = (transparency) => {
+        if (transparency === "true")
+            return "text-container transparent"
+        else 
+            return "text-container"
     }
 }
 

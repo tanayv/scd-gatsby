@@ -1,5 +1,5 @@
 
-const jobData = [
+/*const jobData = [
     {
         "titlePosition": "Associate Director of",
         "titleOps": "PROGRAMS",
@@ -35,7 +35,19 @@ const jobData = [
         "link": "",
         "comingSoon": true
     },
-];
+];*/
+
+const jobData = [
+    {
+        "titlePosition": "",
+        "titleOps": "HEAD OF MARKETING",
+        "image": "jobs3",
+        "description": `
+        Reporting to the Director of the Siebel Center for Design, this position strategizes and oversees the programs and projects of the Siebel Center for Design.`,
+        "link": "https://jobs.illinois.edu/academic-job-board/job-details?jobID=109601&job=associate-director-of-marketing-siebel-center-for-design-109601",
+        "comingSoon": false
+    }
+]
 
 export {
     jobData

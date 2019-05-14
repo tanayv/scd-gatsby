@@ -14,19 +14,19 @@ class ShallowHeader extends React.Component {
                 <h1>Siebel Center for Design</h1>
               </Link>
               <div className="center-links">
-                <Link className="option" to="/about">
+                <Link className={this.generateOptionStyles("about")} to="/about">
                   <div>about</div>
                 </Link>
-                <Link className="option" to="/connect">
+                <Link className={this.generateOptionStyles("connect")} to="/connect">
                   <div>connect</div>
                 </Link>
-                <Link className="option" to="/stories">
+                <Link className={this.generateOptionStyles("stories")} to="/stories">
                   <div>stories</div>
                 </Link>
-                <Link className="option" to="/courses">
+                <Link className={this.generateOptionStyles("courses")} to="/courses">
                   <div>courses</div>
                 </Link>
-                <Link className="option" to="/jobs">
+                <Link className={this.generateOptionStyles("jobs")} to="/jobs">
                   <div>jobs</div>
                 </Link>
               </div>
@@ -41,6 +41,14 @@ class ShallowHeader extends React.Component {
           <div className="spacer shallow"></div>
         </>
     )
+
+    generateOptionStyles = (name) => {
+      console.log(this.props.activePage + ", name:" + name + "===" + (this.props.activePage === name))
+      if (this.props.activePage === name)
+        return "option active";
+      else 
+        return "option";
+    }
 
 }
 

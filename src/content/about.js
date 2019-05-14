@@ -48,6 +48,26 @@ const SiebelSnapshotData = {
   images: []
 }
 
+const directorSnapshotData = {
+  heading: "Who is SCD?",
+  anchor: "director",
+  title: "Rachel Switzky",
+  italics: "inaugural director",
+  body: <>
+      <p className="serif">
+        Rachel Switzky is the inaugural director of the Siebel Center for Design. Prior to her current appointment, she has been a global design leader working with Fortune 100 companies over the past 20 years.
+      </p>
+      <p className="serif">
+        Most recently, she served as an Executive Director at IDEO, the company who pioneered the concept of design thinking. For the last decade in this role, she helped teams imagine futures and then put them into action, focusing on digital design, emergent technologies and impact at-scale.
+      </p>
+      <p className="serif">
+        Rachel attended the University of Illinois at Urbana-Champaign, receiving her BFA and MFA in Industrial Design from the College of Fine and Applied Arts.
+      </p>
+    </>,
+  mainImage: "rachel_switzky",
+  images: []
+}
+
 const BuildingSnapshotData = {
   heading: "Where is SCD?",
   anchor: "building",
@@ -73,17 +93,12 @@ const faqConfiguration = [
     SCD stands for the Siebel Center for Design!
     </p> 
     )},
-  {"title": "Is the Siebel Center for Design in the College of Engineering?", "content": (
-    <p className="serif">
-      Nope! We love our Engineering collaborators, but we are not affiliated with any specific college on campus. This allows us to be completely multidisciplinary and work with everyone!
-    </p> 
-    )},
   {"title": "Is the Siebel Center for Design the same as the Siebel Center for Computer Science?", "content": (
     <p className="serif">
-      Nope! Same name, different groups. The Siebel Center for Computer Science is a building located on the North (Engineering) Quad. The Siebel Center for Design building is being built in the space between Fourth and Sixth street and Huff Hall and the Art + Design Building. The Siebel Center for Computer Science IS affiliated with the College of Engineering while SCD is not. :)
+      No, they are not the same! The Siebel Center for Computer Science is a building located on the North (Engineering) Quad. The Siebel Center for Design building is being built in the space between Fourth and Sixth street and Huff Hall and the Art + Design Building. What they DO have in common is the same guiding force, Tom Siebel. 
     </p> 
     )},
-  {"title": "Who is SCD for? Just Art, Business, or Engineering students?", "content": (
+  {"title": "Who is SCD for?", "content": (
     <p className="serif">
       SCD is for EVERYONE! Regardless of your major or interests, we would love to work with everyone that wants to work with us!
     </p> 
@@ -94,70 +109,99 @@ const peopleGridData = [
   {
     image: "sticker2", 
     name: "Ava Bilimoria",
-    role: "Design Strategist"
+    role: "design strategist"
   },
   {
     image: "sticker7", 
-    name: "Rachael Dietkus",
-    role: "Senior Design Strategist, Social Impact"
+    name: "Rachel Dietkus",
+    role: "senior design strategist, social impact"
   },
   {
     image: "sticker4", 
     name: "Jake Fava",
-    role: "Design Strategist"
+    role: "design strategist"
   },
   {
     image: "sticker6", 
     name: "Amanda Henderson",
-    role: "Lecturer and Senior Design Strategist"
+    role: "senior design strategist, lecturer"
   },
   {
-    image: "sticker10", 
-    name: "Megan McCausland",
-    role: "Graphic Designer"
+    image: "sticker13",
+    name: "Kayley Kirgan",
+    role: "graphic designer"
+  },
+  {
+    image: "sticker14",
+    name: "Emily Kosak",
+    role: "office manager"
+  },
+  {
+    image: "sticker15",
+    name: "Lu Lawrence",
+    role: "research assistant"
   },
   {
     image: "sticker3", 
     name: "Lucas O'Bryan",
-    role: "Design Strategist"
+    role: "design strategist"
   },
   {
     image: "sticker9", 
     name: "Alex Pagano",
-    role: "Senior Design Strategist"
+    role: "senior design strategist"
   },
   {
     image: "sticker8", 
     name: "Dr. William Patterson",
-    role: "Senior Design Strategist, Social Impact"
+    role: "senior design strategist, social impact"
+  },
+  {
+    image: "sticker16", 
+    name: "Saad Shahab",
+    role: "post-doctoral research assistant"
   },
   {
     image: "sticker5", 
     name: "Rebecca Sweeney",
-    role: "Marketing Strategist"
+    role: "marketing strategist"
   },
   {
     image: "sticker1", 
     name: "Rachel Switzky",
-    role: "Director"
+    role: "director"
   },
   {
-    image: "sticker11", 
-    name: "Tanay Vardhan",
-    role: "Web Developer"
+    image: "sticker17", 
+    name: "Mike Tissenbaum",
+    role: "something"
   },
   {
     image: "sticker12", 
     name: "Robin Woodall",
-    role: "Office Administrator"
+    role: "office administrator"
   },
 ]
 
+const alumniGridData = [
+  {
+    image: "sticker10", 
+    name: "Megan McCausland",
+    role: "graphic designer"
+  },
+  {
+    image: "sticker11", 
+    name: "Tanay Vardhan",
+    role: "web developer"
+  },
+]
 
 export {
     GridBoxData,
     SiebelSnapshotData,
     BuildingSnapshotData,
     faqConfiguration,
-    peopleGridData
+    peopleGridData,
+    alumniGridData,
+    directorSnapshotData
 }

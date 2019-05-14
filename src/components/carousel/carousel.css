@@ -25,6 +25,10 @@
     padding: 20px;
 }
 
+.carousel .overlay .text-container.transparent {
+    background-color: rgba(17, 41, 75, 0);
+}
+
 .overlay .text-container  .tile-display {
     width: 80%;
     text-align: right;

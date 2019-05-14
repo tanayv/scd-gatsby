@@ -61,6 +61,13 @@ header.shallow .titlespace .center-links {
 header.shallow .titlespace .center-links .option {
     display: inline-block;
     margin: 15px 20px;
+    transition: font-weight ease-in-out 0.3s;
+}
+
+header.shallow .titlespace .center-links .option.active {
+    display: inline-block;
+    margin: 15px 20px;
+    font-weight: bold !important;
 }
 
 .menu-icon-space {

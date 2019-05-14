@@ -387,6 +387,41 @@ const ImageBlob = (props) => (
             }
           }
         }
+        sticker13: file(relativePath: { eq: "about/sticker13.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker14: file(relativePath: { eq: "about/sticker14.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker15: file(relativePath: { eq: "about/sticker15.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker16: file(relativePath: { eq: "about/sticker16.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        sticker17: file(relativePath: { eq: "about/sticker17.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         about13: file(relativePath: { eq: "about/thomas_siebel.jpg" }) {
           childImageSharp {
             fluid {
@@ -436,7 +471,70 @@ const ImageBlob = (props) => (
             }
           }
         }
-        courses8: file(relativePath: { eq: "courses/courses8.jpg" }) {
+        courses1: file(relativePath: { eq: "courses/courses1.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        courses2: file(relativePath: { eq: "courses/courses2.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        courses3: file(relativePath: { eq: "courses/courses3.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        courses4: file(relativePath: { eq: "courses/courses4.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        courses5: file(relativePath: { eq: "courses/courses5.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        courses6: file(relativePath: { eq: "courses/courses6.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        og_happenings_1: file(relativePath: { eq: "index/rachel_coffee_hour.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        og_happenings_2: file(relativePath: { eq: "index/slashstudent.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        og_happenings_3: file(relativePath: { eq: "index/social_spotlight.jpg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        rachel_switzky: file(relativePath: { eq: "about/rachel_switzky.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid

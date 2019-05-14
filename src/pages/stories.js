@@ -15,7 +15,7 @@ const StoriesPage = () => (
         <meta charSet="utf-8" />
         <title>SCD / Stories</title>
     </Helmet>
-    <Layout>
+    <Layout activePage="stories">
         <ImageBanner page="stories" title="stories past, present, and future!"/>
         <div className="scd-cw-75">
             <h1 className="serif" align="center">As designers, we are storytellers.</h1>

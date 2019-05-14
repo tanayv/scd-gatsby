@@ -17,8 +17,7 @@ class GridList extends React.Component {
         let gridBoxClasses = "grid-box grid-box-theme-" + this.props.theme;
         return (
         <div className={gridBoxClasses}>
-            <div className="scd-cw-75">
-            <h1 className="serif">{this.props.title}</h1>
+            {this.props.title ? <h1 className="serif">{this.props.title}</h1> : <></> }
             {this.props.intro}
                 {this.props.data.map((slide, key) => (
                     <GridBoxSlide key={key}
@@ -29,7 +28,6 @@ class GridList extends React.Component {
                     image={slide.image}
                     />
                 ))}
-            </div>
         </div>)
     }
 

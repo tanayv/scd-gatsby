@@ -1,6 +1,6 @@
 import React from "react"
 import "./grid-box.css"
-import ImageBlob from "./image-blob";
+import ImageBlob from "../../image-blob/image-blob";
 
 class GridBoxSlide extends React.Component {
     

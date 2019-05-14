@@ -646,6 +646,15 @@ h3.serif {
   letter-spacing: 0;
 }
 
+h3.serif-bullet {
+  font-family: "Georgia", serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: left;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+}
+
 .scd-ptop-100 {
   padding-top: 100px !important;
 }
@@ -732,4 +741,21 @@ h2.job-listing {
 a.pure-anchor {
   padding-top: 80px;
   margin-top: -80px;
+}
+
+
+/** Anchor Hack **/
+span.anchor {
+  display: block;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+}
+
+hr.invisible {
+  opacity: 0;
+}
+
+p.no-space-bottom {
+  margin-bottom: 0;
 }
