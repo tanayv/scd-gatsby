@@ -50,7 +50,7 @@ const SiebelSnapshotData = {
 
 const directorSnapshotData = {
   heading: "Who is SCD?",
-  anchor: "director",
+  anchor: "team",
   title: "Rachel Switzky",
   italics: "inaugural director",
   body: <>
