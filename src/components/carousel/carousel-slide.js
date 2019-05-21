@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -55,13 +56,18 @@ const CarouselSlide = (props) => (
     `}
     render={data =>
     <>
-    <div className="overlay" style={
-      {
-        backgroundImage: `url(${data[props.image].childImageSharp.fluid.src})`
-      }
-    }>
-      {props.children}
-    </div>
+      <div className="carousel-container">
+        {props.children}
+      </div>
+      
+      <Link to={props.link}>
+        <div className="underlay" style={
+          {
+            backgroundImage: `url(${data[props.image].childImageSharp.fluid.src})`
+          }
+        }>
+        </div>
+      </Link>
     </>
 }
   />

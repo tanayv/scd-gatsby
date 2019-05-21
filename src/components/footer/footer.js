@@ -18,6 +18,7 @@ const Footer = () => (
             <div className="cell">
                     <Link to="/about"><h1>About</h1></Link>
                     <Link to="/about#siebel"><p>Tom Siebel</p></Link>
+                    <Link to="/about#director"><p>Director</p></Link>
                     <Link to="/about#team"><p>Core Team</p></Link>
                     <Link to="/about#building"><p>Building</p></Link>
                 </div>

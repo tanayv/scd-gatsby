@@ -11,7 +11,7 @@ import Snapshot from "./../components/snapshot/snapshot";
 const leftColumnDefinition = 
     <>
         <p className="serif">
-        Check out our <a target="_blank" rel="noopener noreferrer" href="https://us19.campaign-archive.com/home/?u=fcccbe1307680e3038edbfb62&id=b41078f80a">past newsletters.</a>
+        Check out our <a target="_blank" rel="noopener noreferrer" href="https://us19.campaign-archive.com/home/?u=fcccbe1307680e3038edbfb62&id=b41078f80a">past newsletters</a>.
         </p>
         <p className="serif">
         Wanna chat? Shoot us an email at <a href="mailto: designcenter@illinois.edu">designcenter@illinois.edu</a>.

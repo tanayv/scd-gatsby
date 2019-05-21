@@ -50,7 +50,7 @@ const SiebelSnapshotData = {
 
 const directorSnapshotData = {
   heading: "Who is SCD?",
-  anchor: "team",
+  anchor: "director",
   title: "Rachel Switzky",
   italics: "inaugural director",
   body: <>
@@ -174,7 +174,7 @@ const peopleGridData = [
   {
     image: "sticker17", 
     name: "Mike Tissenbaum",
-    role: "something"
+    role: "affiliated faculty"
   },
   {
     image: "sticker12", 

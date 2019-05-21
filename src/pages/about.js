@@ -22,7 +22,9 @@ const AboutPage = () => (
             <TextSplit left={<h1 className="serif">What is SCD?</h1>} right={<><p className="serif">Our mission at the Siebel Center for Design is to foster multidisciplinary collaborations across campus, using design thinking as an approach to promote human-centered design and mandated quick iterations.</p><p className="serif">At SCD, we have a hard-working, collaborative team of individuals that help guide our mission. Though we are waiting for our BRAND NEW building to be built, we are piloting many initiatives in order to bring awareness to what SCD does to campus. </p></>}/>
             <Snapshot shape="square" data={directorSnapshotData}/>
             <hr className="invisible"/>
-            <PeopleGrid data={peopleGridData}/>
+            <AnchorWrapper anchor={`team`}>
+              <PeopleGrid data={peopleGridData}/>
+            </AnchorWrapper>
             <AnchorWrapper title="SCD Alumni">
               <PeopleGrid special="only-two" data={alumniGridData}/>
             </AnchorWrapper>

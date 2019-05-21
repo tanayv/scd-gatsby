@@ -5,31 +5,31 @@ const carouselData = [
   {
     "image": "resources_carousel",
     "title": "We love sharing our inspo... our favorite resources coming soon!",
-    "link": "",
+    "link": "/",
     "transparent": "false"
   },
   {
     "image": "newsletter_carousel",
     "title": "Join our Newsletter and get the latest on SCD activities!",
-    "link": "",
+    "link": "/connect",
     "transparent": "false"
   },
   {
     "image": "welcome_carousel",
     "title": "Welcome to the Siebel Center for Design",
-    "link": "",
+    "link": "/",
     "transparent": "false"
   },
   {
     "image": "siebel_carousel",
     "title": "Tom Siebel and the Siebel Center for Design",
-    "link": "",
+    "link": "/about#siebel",
     "transparent": "true"
   },
   {
     "image": "courses_carousel",
     "title": "See how we're integrating Design Thinking into courses",
-    "link": "",
+    "link": "/courses",
     "transparent": "false"
   },
 ]
